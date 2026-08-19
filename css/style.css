@@ -156,3 +156,29 @@
 .update-card-link{display:grid;text-decoration:none;color:inherit;cursor:pointer}
 .update-card-link:hover{background:rgba(255,255,255,.025)}
 .update-card-link .text-link{display:inline-block;margin-top:12px}
+
+/* ===== Phase 2: Brahmansh character profile ===== */
+.brahmansh-profile-hero .character-art-image{padding:0;overflow:hidden;background:#07101d}
+.character-art-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center top}
+.profile-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.12)}
+.profile-stat{background:#0a0f18;padding:24px}
+.profile-stat span{display:block;font-size:.68rem;letter-spacing:.16em;color:#8993a5;margin-bottom:8px}
+.profile-stat strong{display:block;font-size:1rem}
+.profile-stat small{display:block;margin-top:7px;color:#9ca6b5;line-height:1.5}
+.civilian-profile{display:grid;grid-template-columns:minmax(280px,42%) 1fr;gap:48px;align-items:center}
+.civilian-art{overflow:hidden;background:#0a101b;border:1px solid rgba(255,255,255,.12)}
+.civilian-art img{display:block;width:100%;height:auto}
+.power-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.power-card,.weakness-grid article{border:1px solid rgba(255,255,255,.12);padding:28px;background:rgba(255,255,255,.02)}
+.power-card>span{font-size:.7rem;letter-spacing:.15em;color:#aab4c4}
+.power-card h3,.weakness-grid h3{margin:10px 0}
+.power-card p,.weakness-grid p{color:#aeb7c5}
+.armor-feature{max-width:850px}
+.weakness-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.comic-profile{display:grid;grid-template-columns:280px 1fr;gap:48px;align-items:center}
+@media(max-width:800px){
+.profile-grid,.power-grid,.weakness-grid,.civilian-profile,.comic-profile{grid-template-columns:1fr}
+.character-art-image{min-height:420px}
+}
+
+.portrait img{width:100%;height:100%;object-fit:cover;display:block}
