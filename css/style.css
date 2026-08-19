@@ -148,3 +148,5 @@
 @media(max-width:800px){
   .nav-dropdown.open .dropdown-menu{display:block!important;position:static!important}
 }
+
+.nav-dropdown{position:relative!important}.nav-dropdown:hover>.dropdown-menu{display:block!important}.dropdown-menu{z-index:9999!important;pointer-events:auto!important}.dropdown-menu a{pointer-events:auto!important;cursor:pointer!important}

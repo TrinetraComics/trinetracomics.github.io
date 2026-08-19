@@ -122,29 +122,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 })();
 
-/* ===== Reliable hero dropdown navigation ===== */
-(function(){
-  document.querySelectorAll(".nav-dropdown .nav-parent").forEach(function(parent){
-    parent.addEventListener("click", function(e){
-      const isMobile = window.matchMedia("(max-width: 800px)").matches;
-      if(isMobile){
-        const box=parent.parentElement;
-        const opened=box.classList.contains("open");
-        if(!opened){
-          e.preventDefault();
-          document.querySelectorAll(".nav-dropdown.open").forEach(function(x){if(x!==box)x.classList.remove("open");});
-          box.classList.add("open");
-        }
-      }
-      /* Desktop: normal navigation remains available; dropdown links are untouched. */
-    });
-  });
 
-  document.querySelectorAll(".dropdown-menu a").forEach(function(link){
-    link.addEventListener("click", function(e){
-      /* Never intercept dropdown destination links. */
-      e.stopPropagation();
-      window.location.href = link.getAttribute("href");
-    });
-  });
-})();
+/* Hero dropdown links use native browser navigation. No click interception. */
