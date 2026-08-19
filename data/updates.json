@@ -2,21 +2,25 @@
   {
     "timestamp": "2026-08-19T17:00:00+05:30",
     "title": "Trinetra Comics website is live",
-    "text": "The official online home of the Trinetra Comics universe is now live."
+    "text": "The official online home of the Trinetra Comics universe is now live.",
+    "slug": "website-launch"
   },
   {
     "timestamp": "2026-08-19T16:30:00+05:30",
     "title": "Phase 1 website update",
-    "text": "Search, sharing tools, hero navigation and the expanding franchise structure have been added."
+    "text": "Search, sharing tools, hero navigation and the expanding franchise structure have been added.",
+    "slug": "phase-1-update"
   },
   {
     "timestamp": "2026-08-19T16:00:00+05:30",
     "title": "The Trinetra hero roster expands",
-    "text": "Dedicated profile pages are being prepared for the heroes of the growing Trinetra Universe."
+    "text": "Dedicated profile pages are being prepared for the heroes of the growing Trinetra Universe.",
+    "slug": "hero-roster-expands"
   },
   {
     "timestamp": "2026-08-19T15:30:00+05:30",
     "title": "Brahmansh — The Star Hunter",
-    "text": "Brahmansh Issue #1 remains the first featured story on the Trinetra Comics website."
+    "text": "Brahmansh Issue #1 remains the first featured story on the Trinetra Comics website.",
+    "slug": "brahmansh-star-hunter"
   }
 ]

@@ -114,10 +114,10 @@ document.addEventListener("DOMContentLoaded", function () {
     loadJSON("data/updates.json").then(items=>{
       items.sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp));
       updatesBox.innerHTML=items.slice(0,4).map(u=>`
-        <article class="update-card">
+        <a class="update-card update-card-link" href="update-${u.slug}.html">
           <time datetime="${u.timestamp}">${new Date(u.timestamp).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit",hour12:true})} IST</time>
-          <div><h3>${u.title}</h3><p>${u.text}</p></div>
-        </article>`).join("");
+          <div><h3>${u.title}</h3><p>${u.text}</p><span class="text-link">READ UPDATE →</span></div>
+        </a>`).join("");
     }).catch(()=>{updatesBox.innerHTML='<div class="latest-empty">Updates are being prepared.</div>';});
   }
 })();

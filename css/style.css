@@ -150,3 +150,9 @@
 }
 
 .nav-dropdown{position:relative!important}.nav-dropdown:hover>.dropdown-menu{display:block!important}.dropdown-menu{z-index:9999!important;pointer-events:auto!important}.dropdown-menu a{pointer-events:auto!important;cursor:pointer!important}
+
+.hero-card-link{display:block;text-decoration:none;color:inherit;cursor:pointer}
+.hero-card-link:hover{transform:translateY(-3px)}
+.update-card-link{display:grid;text-decoration:none;color:inherit;cursor:pointer}
+.update-card-link:hover{background:rgba(255,255,255,.025)}
+.update-card-link .text-link{display:inline-block;margin-top:12px}
