@@ -1,69 +1,46 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const topBtn = document.querySelector(".back-to-top");
-  if (topBtn) {
-    window.addEventListener("scroll", () => {
-      topBtn.classList.toggle("visible", window.scrollY > 450);
-    }, {passive:true});
-    topBtn.addEventListener("click", e => {
-      e.preventDefault();
-      window.scrollTo({top:0, behavior:"smooth"});
-    });
-  }
-
-  const searchInput = document.querySelector("#site-search-input");
-  const results = document.querySelector("#search-results");
-  const searchData = [
-    ["Brahmansh","Hero","brahmansh.html"],
-    ["Agniveer","Hero","heroes.html#agniveer"],
-    ["Vajra","Hero","heroes.html#vajra"],
-    ["Vishraaj","Hero","heroes.html#vishraaj"],
-    ["Yantrik","Hero","heroes.html#yantrik"],
-    ["Vaishnavi","Hero","heroes.html#vaishnavi"],
-    ["Mantra","Hero","heroes.html#mantra"],
-    ["Vyomika","Hero","heroes.html#vyomika"],
-    ["Kavach","Hero","heroes.html#kavach"],
-    ["The Trinetra","Universe","universe.html"],
-    ["Cosmic History","Universe","cosmic-history.html"],
-    ["The Great Cosmic War","Universe","great-cosmic-war.html"],
-    ["Comics","Comics","comics.html"],
-    ["Free Previews","Comics","previews.html"],
-    ["Lore","Universe","lore.html"],
-    ["News / Updates","Site","news.html"]
-  ];
-
-  if (searchInput && results) {
-    function render(q){
-      q=q.trim().toLowerCase();
-      if(!q){results.classList.remove("show"); results.innerHTML=""; return;}
-      const matches=searchData.filter(x=>(x[0]+" "+x[1]).toLowerCase().includes(q));
-      results.innerHTML=matches.length
-        ? matches.map(x=>`<a class="search-result" href="${x[2]}"><strong>${x[0]}</strong><span>${x[1]}</span></a>`).join("")
-        : `<div class="search-empty">No Trinetra result found for “${q}”.</div>`;
-      results.classList.add("show");
-    }
-    searchInput.addEventListener("input",()=>render(searchInput.value));
-    searchInput.addEventListener("focus",()=>{if(searchInput.value) render(searchInput.value)});
-    document.addEventListener("click",e=>{
-      if(!e.target.closest(".site-search")) results.classList.remove("show");
-    });
-  }
-
-  const pageUrl = encodeURIComponent(window.location.href);
-  document.querySelectorAll(".share-whatsapp").forEach(a=>a.href="https://wa.me/?text="+encodeURIComponent("TRINETRA COMICS | "+window.location.href));
-  document.querySelectorAll(".share-facebook").forEach(a=>a.href="https://www.facebook.com/sharer/sharer.php?u="+pageUrl);
-  document.querySelectorAll(".share-x").forEach(a=>a.href="https://twitter.com/intent/tweet?url="+pageUrl+"&text="+encodeURIComponent("Trinetra Comics"));
-  document.querySelectorAll(".share-telegram").forEach(a=>a.href="https://t.me/share/url?url="+pageUrl+"&text="+encodeURIComponent("Trinetra Comics"));
-
-  document.querySelectorAll(".share-copy").forEach(btn=>{
-    btn.addEventListener("click", async ()=>{
-      const url=window.location.href;
-      try{
-        await navigator.clipboard.writeText(url);
-        const old=btn.textContent; btn.textContent="COPIED!";
-        setTimeout(()=>btn.textContent=old,1500);
-      }catch(e){
-        window.prompt("Copy this page URL:",url);
-      }
-    });
-  });
-});
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Cosmic History | Trinetra Comics</title><meta name="description" content="The events that shaped the worlds, guardians and mysteries of the Trinetra Universe."><link rel="canonical" href="https://trinetracomics.github.io/cosmic-history.html"><link rel="stylesheet" href="css/style.css"></head><body>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">ॐ</span><span>TRINETRA<br><small>COMICS</small></span></a><button class="menu-toggle" aria-label="Open menu">☰</button><nav class="nav" aria-label="Main navigation">
+  <a href="index.html">Home</a>
+  <div class="nav-dropdown">
+    <a class="nav-parent" href="universe.html">Universe <span class="chevron">▾</span></a>
+    <div class="dropdown-menu">
+      <a href="universe.html">The Trinetra</a>
+      <a href="cosmic-history.html">Cosmic History</a>
+      <a href="great-cosmic-war.html">The Great Cosmic War</a>
+    </div>
+  </div>
+  <div class="nav-dropdown">
+    <a class="nav-parent" href="heroes.html">Heroes <span class="chevron">▾</span></a>
+    <div class="dropdown-menu heroes-menu">
+      <a href="heroes.html">All Heroes</a>
+      <a href="heroes.html#brahmansh">Brahmansh</a>
+      <a href="heroes.html#agniveer">Agniveer</a>
+      <a href="heroes.html#vajra">Vajra</a>
+      <a href="heroes.html#vishraaj">Vishraaj</a>
+      <a href="heroes.html#yantrik">Yantrik</a>
+      <a href="heroes.html#vaishnavi">Vaishnavi</a>
+      <a href="heroes.html#mantra">Mantra</a>
+      <a href="heroes.html#vyomika">Vyomika</a>
+      <a href="heroes.html#kavach">Kavach</a>
+    </div>
+  </div>
+  <div class="nav-dropdown">
+    <a class="nav-parent" href="comics.html">Comics <span class="chevron">▾</span></a>
+    <div class="dropdown-menu">
+      <a href="comics.html">All Comics</a>
+      <a href="comics.html#brahmansh">Brahmansh</a>
+      <a href="previews.html">Free Previews</a>
+      <a href="comics.html#where-to-read">Where to Read</a>
+    </div>
+  </div>
+  <a href="previews.html">Previews</a>
+  <a href="lore.html">Lore</a>
+  <a href="news.html">News / Updates</a>
+  <a href="about.html">About</a>
+</nav><div class="site-search">
+  <input id="site-search-input" type="search" placeholder="Search Trinetra..." aria-label="Search Trinetra Comics">
+  <div id="search-results" class="search-results" aria-live="polite"></div>
+</div></header>
+<main><div class="breadcrumbs"><a href="index.html">Home</a> <span>›</span> Universe → Cosmic History</div><section class="page-hero compact"><p class="eyebrow">TRINETRA UNIVERSE</p><h1>THE COSMIC<br><span>HISTORY</span></h1><p>The events that shaped the worlds, guardians and mysteries of the Trinetra Universe.</p></section><section class="section"><div class="section-label">01 / THE TIMELINE</div><div class="two-col"><h2>Before Earth knew<br>the stars.</h2><div><p>The history of the Trinetra Universe stretches across ages. Ancient guardians, cosmic powers and forgotten civilizations shaped a conflict whose consequences still reach the present.</p><p>This timeline will expand as new stories reveal more of the universe.</p></div></div></section>
+<section class="section dark-section"><div class="section-label">02 / KEY ERAS</div><div class="lore-grid"><article><span>ERA I</span><h3>The Age of Guardians</h3><p>An age when ancient protectors carried responsibilities far beyond a single world.</p></article><article><span>ERA II</span><h3>The Great Cosmic War</h3><p>A devastating conflict that changed the fate of the guardians and the worlds around them.</p></article><article><span>ERA III</span><h3>The Exile</h3><p>Brahmansh is cast into a dark-matter comet, beginning a journey that will eventually bring him to Earth.</p></article><article><span>ERA IV</span><h3>The Awakening</h3><p>On Earth, an ancient guardian awakens while forces beyond the planet begin to move.</p></article></div></section></main>
+<div class="share-bar"><span class="share-label">Share this page</span><a class="share-btn share-whatsapp" href="#" target="_blank" rel="noopener">WhatsApp</a><a class="share-btn share-facebook" href="#" target="_blank" rel="noopener">Facebook</a><a class="share-btn share-x" href="#" target="_blank" rel="noopener">X</a><a class="share-btn share-telegram" href="#" target="_blank" rel="noopener">Telegram</a><button class="share-btn share-copy" type="button">Copy Link</button></div><footer><div class="footer-brand">TRINETRA COMICS</div><p>An original Indian superhero universe.</p><div class="footer-links"><a href="universe.html">Universe</a><a href="heroes.html">Heroes</a><a href="comics.html">Comics</a><a href="news.html">News</a><a href="about.html">About</a></div><p class="copyright">© 2026 Trinetra Comics. All rights reserved.</p></footer><script src="js/script.js"></script><a class="back-to-top" href="#" aria-label="Move to top">↑</a><script src="js/script.js"></script></body></html>
