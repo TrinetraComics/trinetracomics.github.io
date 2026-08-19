@@ -139,3 +139,12 @@
  .latest-comics-grid{grid-template-columns:1fr}
  .update-card{grid-template-columns:1fr;gap:7px}
 }
+
+/* Reliable dropdown hit area and navigation */
+.site-header{position:relative;z-index:1000!important}
+.nav-dropdown{position:relative!important}
+.dropdown-menu{z-index:2000!important;pointer-events:auto!important}
+.dropdown-menu a{position:relative!important;z-index:2001!important;pointer-events:auto!important;display:block!important}
+@media(max-width:800px){
+  .nav-dropdown.open .dropdown-menu{display:block!important;position:static!important}
+}
