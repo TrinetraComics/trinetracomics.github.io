@@ -87,3 +87,55 @@
 .hero-profile-links a{display:inline-block;padding:11px 15px;border:1px solid #303850;text-decoration:none;color:#d6dbe5;font-size:10px;letter-spacing:1px}
 .hero-profile-links a:hover{border-color:var(--accent);color:var(--accent)}
 @media(max-width:800px){.hero-profile-grid{grid-template-columns:1fr;gap:35px}.hero-profile-art{min-height:300px}.hero-profile{padding:40px 18px 70px}}
+
+/* ===== PHASE 1 UPDATE 3 ===== */
+/* Header: logo, navigation, clock and search remain separated */
+.site-header{display:flex!important;align-items:center!important;gap:18px!important;padding:16px 30px!important;min-height:78px!important;box-sizing:border-box!important;position:relative!important;z-index:100!important}
+.brand{flex:0 0 auto!important;white-space:nowrap!important}
+.nav{flex:1 1 auto!important;min-width:0!important;display:flex!important;align-items:center!important;justify-content:center!important;gap:19px!important}
+.site-search{flex:0 0 190px!important;width:190px!important;margin:0!important}
+.ist-clock{flex:0 0 auto;min-width:132px;text-align:right;color:#8f99ad;font-size:9px;line-height:1.45;letter-spacing:1px;text-transform:uppercase}
+.ist-clock strong{display:block;color:#d9deea;font-size:11px;letter-spacing:1.2px}
+.ist-clock span{display:block}
+.latest-comics-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:28px}
+.latest-comic-card{display:block;text-decoration:none;color:inherit;border:1px solid #303850;background:#0b0f1d;overflow:hidden;transition:.2s}
+.latest-comic-card:hover{transform:translateY(-3px);border-color:var(--accent)}
+.latest-comic-cover{min-height:240px;padding:28px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(145deg,#151b31,#070914)}
+.latest-comic-cover .issue{font-size:9px;letter-spacing:2px;color:#9da6b8}
+.latest-comic-cover h3{font-size:28px;margin:8px 0 3px}
+.latest-comic-cover h4{font-size:12px;letter-spacing:2px;color:#b9c1cf;margin:0}
+.latest-comic-body{padding:18px}
+.latest-comic-body p{font-size:13px}
+.latest-comic-body .date{font-size:9px;letter-spacing:1.5px;color:var(--accent);text-transform:uppercase}
+.latest-empty{padding:25px;border:1px dashed #303850;color:#8f99ad}
+.updates-list{border-top:1px solid #303850;margin-top:25px}
+.update-card{display:grid;grid-template-columns:150px 1fr;gap:30px;padding:26px 0;border-bottom:1px solid #222a3b}
+.update-card time{font-size:9px;letter-spacing:1.5px;color:var(--accent);text-transform:uppercase}
+.update-card h3{margin:0 0 7px;font-size:22px}
+.update-card p{margin:0}
+@media(max-width:1250px){
+ .site-header{gap:12px!important;padding-left:20px!important;padding-right:20px!important}
+ .nav{gap:12px!important}
+ .site-search{flex-basis:165px!important;width:165px!important}
+ .ist-clock{min-width:112px}
+}
+@media(max-width:1050px){
+ .site-header{flex-wrap:wrap!important}
+ .brand{margin-right:auto!important}
+ .ist-clock{order:2}
+ .nav{order:3;flex:1 1 100%!important;flex-wrap:wrap!important}
+ .site-search{order:4;flex:1 1 100%!important;width:100%!important}
+}
+@media(max-width:800px){
+ .site-header{display:block!important;padding:16px 18px!important}
+ .brand{display:inline-flex!important}
+ .menu-toggle{display:block!important;position:absolute!important;right:18px!important;top:18px!important}
+ .ist-clock{position:absolute;right:60px;top:16px;min-width:0;text-align:right}
+ .ist-clock strong{font-size:10px}
+ .ist-clock span{font-size:8px}
+ .nav{display:none!important;margin-top:18px;flex-direction:column!important;align-items:stretch!important;gap:8px!important}
+ .nav.open{display:flex!important}
+ .site-search{display:block!important;margin-top:14px!important;width:100%!important}
+ .latest-comics-grid{grid-template-columns:1fr}
+ .update-card{grid-template-columns:1fr;gap:7px}
+}

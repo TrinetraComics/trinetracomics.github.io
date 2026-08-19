@@ -67,3 +67,57 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+/* ===== Dynamic franchise content ===== */
+(function(){
+  const clock=document.querySelector("#ist-clock");
+  function updateIST(){
+    if(!clock) return;
+    const now=new Date();
+    const time=new Intl.DateTimeFormat("en-IN",{timeZone:"Asia/Kolkata",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:true}).format(now);
+    const date=new Intl.DateTimeFormat("en-IN",{timeZone:"Asia/Kolkata",day:"2-digit",month:"short",year:"numeric"}).format(now);
+    clock.innerHTML="<strong>"+time+" IST</strong><span>"+date+"</span>";
+  }
+  updateIST();
+  setInterval(updateIST,1000);
+
+  async function loadJSON(path){
+    const r=await fetch(path,{cache:"no-store"});
+    if(!r.ok) throw new Error(path);
+    return r.json();
+  }
+
+  const latest=document.querySelector("#latest-comics");
+  if(latest){
+    loadJSON("data/comics.json").then(items=>{
+      items.sort((a,b)=>new Date(b.date)-new Date(a.date));
+      const top=items.slice(0,3);
+      if(!top.length){latest.innerHTML='<div class="latest-empty">Latest comics will appear here.</div>';return;}
+      latest.innerHTML=top.map(c=>`
+        <a class="latest-comic-card" href="${c.page}">
+          <div class="latest-comic-cover">
+            <span class="issue">${c.issue||""}</span>
+            <h3>${c.hero||"TRINETRA COMICS"}</h3>
+            <h4>${c.title||""}</h4>
+          </div>
+          <div class="latest-comic-body">
+            <span class="date">${new Date(c.date).toLocaleDateString("en-IN",{day:"2-digit",month:"short",year:"numeric"})}</span>
+            <p>${c.description||""}</p>
+            <span class="text-link">VIEW COMIC →</span>
+          </div>
+        </a>`).join("");
+    }).catch(()=>{latest.innerHTML='<div class="latest-empty">Latest comics are being updated.</div>';});
+  }
+
+  const updatesBox=document.querySelector("#latest-updates");
+  if(updatesBox){
+    loadJSON("data/updates.json").then(items=>{
+      items.sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp));
+      updatesBox.innerHTML=items.slice(0,4).map(u=>`
+        <article class="update-card">
+          <time datetime="${u.timestamp}">${new Date(u.timestamp).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"2-digit",month:"short",year:"numeric",hour:"2-digit",minute:"2-digit",hour12:true})} IST</time>
+          <div><h3>${u.title}</h3><p>${u.text}</p></div>
+        </article>`).join("");
+    }).catch(()=>{updatesBox.innerHTML='<div class="latest-empty">Updates are being prepared.</div>';});
+  }
+})();
