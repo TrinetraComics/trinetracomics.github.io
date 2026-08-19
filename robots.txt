@@ -1,4 +1,51 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://trinetracomics.github.io/sitemap.xml
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Trinetra Lore | Trinetra Comics</title><meta name="description" content="Explore the developing mythology and lore of the Trinetra Comics universe.">
+<link rel="canonical" href="https://trinetracomics.github.io/lore.html"><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">ॐ</span><span>TRINETRA<br><small>COMICS</small></span></a><button class="menu-toggle">☰</button><nav class="nav" aria-label="Main navigation">
+  <a href="index.html">Home</a>
+  <div class="nav-dropdown">
+    <a class="nav-parent" href="universe.html">Universe <span class="chevron">▾</span></a>
+    <div class="dropdown-menu">
+      <a href="universe.html">The Trinetra</a>
+      <a href="cosmic-history.html">Cosmic History</a>
+      <a href="great-cosmic-war.html">The Great Cosmic War</a>
+    </div>
+  </div>
+  <div class="nav-dropdown">
+    <a class="nav-parent" href="heroes.html">Heroes <span class="chevron">▾</span></a>
+    <div class="dropdown-menu heroes-menu">
+      <a href="heroes.html">All Heroes</a>
+      <a href="heroes.html#brahmansh">Brahmansh</a>
+      <a href="heroes.html#agniveer">Agniveer</a>
+      <a href="heroes.html#vajra">Vajra</a>
+      <a href="heroes.html#vishraaj">Vishraaj</a>
+      <a href="heroes.html#yantrik">Yantrik</a>
+      <a href="heroes.html#vaishnavi">Vaishnavi</a>
+      <a href="heroes.html#mantra">Mantra</a>
+      <a href="heroes.html#vyomika">Vyomika</a>
+      <a href="heroes.html#kavach">Kavach</a>
+    </div>
+  </div>
+  <div class="nav-dropdown">
+    <a class="nav-parent" href="comics.html">Comics <span class="chevron">▾</span></a>
+    <div class="dropdown-menu">
+      <a href="comics.html">All Comics</a>
+      <a href="comics.html#brahmansh">Brahmansh</a>
+      <a href="previews.html">Free Previews</a>
+      <a href="comics.html#where-to-read">Where to Read</a>
+    </div>
+  </div>
+  <a href="previews.html">Previews</a>
+  <a href="lore.html">Lore</a>
+  <a href="news.html">News / Updates</a>
+  <a href="about.html">About</a>
+</nav><div class="site-search">
+  <input id="site-search-input" type="search" placeholder="Search Trinetra..." aria-label="Search Trinetra Comics">
+  <div id="search-results" class="search-results" aria-live="polite"></div>
+</div></header>
+<main><div class="breadcrumbs"><a href="index.html">Home</a> <span>›</span> Lore</div><section class="page-hero compact"><p class="eyebrow">MYTHOLOGY • HISTORY • MYSTERY</p><h1>THE<br><span>LORE</span></h1><p>The deeper stories behind the heroes and the universe.</p></section>
+<section class="section"><div class="lore-grid"><article><span>01</span><h3>The Trinetra</h3><p>The central mystery around which the universe's oldest guardians and greatest conflicts revolve.</p></article><article><span>02</span><h3>The Great Cosmic War</h3><p>A forgotten conflict that changed the fate of ancient guardians and left consequences across worlds.</p></article><article><span>03</span><h3>The Guardians</h3><p>Ancient protectors whose duties and sacrifices form part of the universe's hidden history.</p></article><article><span>04</span><h3>The Star Hunter</h3><p>The first Brahmansh story opens a doorway into a much larger cosmic mystery.</p></article></div></section>
+<section class="section dark-section"><div class="section-label">THIS PAGE WILL GROW</div><h2>More lore will be revealed.</h2><p class="lead">As new comics are published, this section can become the reference guide to the Trinetra Universe.</p></section></main>
+<div class="share-bar"><span class="share-label">Share this page</span><a class="share-btn share-whatsapp" href="#" target="_blank" rel="noopener">WhatsApp</a><a class="share-btn share-facebook" href="#" target="_blank" rel="noopener">Facebook</a><a class="share-btn share-x" href="#" target="_blank" rel="noopener">X</a><a class="share-btn share-telegram" href="#" target="_blank" rel="noopener">Telegram</a><button class="share-btn share-copy" type="button">Copy Link</button></div><footer><div class="footer-brand">TRINETRA COMICS</div><p>An original Indian superhero universe.</p><div class="footer-links"><a href="universe.html">Universe</a><a href="heroes.html">Heroes</a><a href="comics.html">Comics</a></div><p class="copyright">© 2026 Trinetra Comics. All rights reserved.</p></footer><script src="js/script.js"></script><a class="back-to-top" href="#" aria-label="Move to top">↑</a><script src="js/script.js"></script></body></html>

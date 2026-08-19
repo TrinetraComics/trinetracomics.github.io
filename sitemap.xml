@@ -1,14 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://trinetracomics.github.io/</loc></url>
-  <url><loc>https://trinetracomics.github.io/universe.html</loc></url>
-  <url><loc>https://trinetracomics.github.io/cosmic-history.html</loc></url>
-  <url><loc>https://trinetracomics.github.io/great-cosmic-war.html</loc></url>
-  <url><loc>https://trinetracomics.github.io/heroes.html</loc></url>
-  <url><loc>https://trinetracomics.github.io/brahmansh.html</loc></url>
-  <url><loc>https://trinetracomics.github.io/comics.html</loc></url>
-  <url><loc>https://trinetracomics.github.io/previews.html</loc></url>
-  <url><loc>https://trinetracomics.github.io/lore.html</loc></url>
-  <url><loc>https://trinetracomics.github.io/news.html</loc></url>
-  <url><loc>https://trinetracomics.github.io/about.html</loc></url>
-</urlset>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>News & Updates | Trinetra Comics | Trinetra Comics</title><meta name="description" content="Announcements, new comics, character reveals and developments from the Trinetra Universe."><link rel="canonical" href="https://trinetracomics.github.io/news.html"><link rel="stylesheet" href="css/style.css"></head><body>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">ॐ</span><span>TRINETRA<br><small>COMICS</small></span></a><button class="menu-toggle" aria-label="Open menu">☰</button><nav class="nav" aria-label="Main navigation">
+  <a href="index.html">Home</a>
+  <div class="nav-dropdown">
+    <a class="nav-parent" href="universe.html">Universe <span class="chevron">▾</span></a>
+    <div class="dropdown-menu">
+      <a href="universe.html">The Trinetra</a>
+      <a href="cosmic-history.html">Cosmic History</a>
+      <a href="great-cosmic-war.html">The Great Cosmic War</a>
+    </div>
+  </div>
+  <div class="nav-dropdown">
+    <a class="nav-parent" href="heroes.html">Heroes <span class="chevron">▾</span></a>
+    <div class="dropdown-menu heroes-menu">
+      <a href="heroes.html">All Heroes</a>
+      <a href="heroes.html#brahmansh">Brahmansh</a>
+      <a href="heroes.html#agniveer">Agniveer</a>
+      <a href="heroes.html#vajra">Vajra</a>
+      <a href="heroes.html#vishraaj">Vishraaj</a>
+      <a href="heroes.html#yantrik">Yantrik</a>
+      <a href="heroes.html#vaishnavi">Vaishnavi</a>
+      <a href="heroes.html#mantra">Mantra</a>
+      <a href="heroes.html#vyomika">Vyomika</a>
+      <a href="heroes.html#kavach">Kavach</a>
+    </div>
+  </div>
+  <div class="nav-dropdown">
+    <a class="nav-parent" href="comics.html">Comics <span class="chevron">▾</span></a>
+    <div class="dropdown-menu">
+      <a href="comics.html">All Comics</a>
+      <a href="comics.html#brahmansh">Brahmansh</a>
+      <a href="previews.html">Free Previews</a>
+      <a href="comics.html#where-to-read">Where to Read</a>
+    </div>
+  </div>
+  <a href="previews.html">Previews</a>
+  <a href="lore.html">Lore</a>
+  <a href="news.html">News / Updates</a>
+  <a href="about.html">About</a>
+</nav><div class="site-search">
+  <input id="site-search-input" type="search" placeholder="Search Trinetra..." aria-label="Search Trinetra Comics">
+  <div id="search-results" class="search-results" aria-live="polite"></div>
+</div></header>
+<main><div class="breadcrumbs"><a href="index.html">Home</a> <span>›</span> News / Updates</div><section class="page-hero compact"><p class="eyebrow">TRINETRA UNIVERSE</p><h1>NEWS /<br><span>UPDATES</span></h1><p>Announcements, new comics, character reveals and developments from the Trinetra Universe.</p></section><section class="section"><div class="section-label">LATEST</div><div class="news-list"><article class="news-item"><div class="news-date">2026</div><div><p class="card-kicker">WEBSITE LAUNCH</p><h2>The official Trinetra Comics website is live.</h2><p>Welcome to the online home of the Trinetra Universe. Explore the heroes, mythology and comics, with more stories and features to come.</p></div></article><article class="news-item"><div class="news-date">COMING SOON</div><div><p class="card-kicker">COMICS</p><h2>More Trinetra stories are on the way.</h2><p>New issues, hero profiles, previews and universe lore will be added as the franchise expands.</p></div></article></div></section></main>
+<div class="share-bar"><span class="share-label">Share this page</span><a class="share-btn share-whatsapp" href="#" target="_blank" rel="noopener">WhatsApp</a><a class="share-btn share-facebook" href="#" target="_blank" rel="noopener">Facebook</a><a class="share-btn share-x" href="#" target="_blank" rel="noopener">X</a><a class="share-btn share-telegram" href="#" target="_blank" rel="noopener">Telegram</a><button class="share-btn share-copy" type="button">Copy Link</button></div><footer><div class="footer-brand">TRINETRA COMICS</div><p>An original Indian superhero universe.</p><div class="footer-links"><a href="universe.html">Universe</a><a href="heroes.html">Heroes</a><a href="comics.html">Comics</a><a href="news.html">News</a><a href="about.html">About</a></div><p class="copyright">© 2026 Trinetra Comics. All rights reserved.</p></footer><script src="js/script.js"></script><a class="back-to-top" href="#" aria-label="Move to top">↑</a><script src="js/script.js"></script></body></html>
