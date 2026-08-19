@@ -1,16 +1,19 @@
-## Hi there 👋
+# Trinetra Comics Website
 
-<!--
-**TrinetraComics/trinetracomics** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Initial GitHub Pages website for Trinetra Comics.
 
-Here are some ideas to get you started:
+## Upload
+Upload all files and folders to the root of the GitHub repository.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## GitHub Pages
+Repository → Settings → Pages → Deploy from branch → main → /(root) → Save.
+
+## Before launch
+1. Replace placeholder hero/character artwork with final images.
+2. Add actual Amazon KDP and Google Books URLs.
+3. Add selected comic preview pages.
+4. Review all text and character descriptions.
+5. Set up Google Search Console and submit `sitemap.xml`.
+6. Later, connect a custom domain if desired.
+
+The current site intentionally uses original placeholder visual treatments so it can be launched before final artwork is inserted.
