@@ -28,3 +28,7 @@ The catalogue uses an `order` field for publication sequence, so no publication 
 - Brahmansh Issue #2 is categorized as Hindi using the source document's Language field.
 - Tags from the supplied issue documents are displayed on issue pages.
 - The supplied documents do not state original publication dates; the site therefore displays **Posted 20 August 2026** as the website post date rather than inventing an original publication date.
+
+
+## Latest performance update
+All website artwork has been converted to optimized WebP assets and HTML references updated. The homepage now uses the supplied Trinetra logo and supplied cosmic Trinetra artwork, with a single non-overlapping Latest Comics section and a visible News & Updates section.
