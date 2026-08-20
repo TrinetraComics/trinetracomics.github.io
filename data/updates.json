@@ -1,26 +1,26 @@
 [
   {
+    "timestamp": "2026-08-20T20:30:00+05:30",
+    "title": "Agniveer has arrived",
+    "text": "A new hero has entered the Trinetra Universe. Aarav Rathore, the fiery guardian of Lucknow, now joins the growing roster as Agniveer.",
+    "slug": "agniveer-arrives"
+  },
+  {
+    "timestamp": "2026-08-20T20:15:00+05:30",
+    "title": "Meet Agniveer — the blazing guardian of Lucknow",
+    "text": "The official Agniveer character profile is now live, revealing Aarav Rathore, the Divine Trishul Core, Agni-Lok, his powers, weapons and weaknesses.",
+    "slug": "agniveer-profile"
+  },
+  {
     "timestamp": "2026-08-19T17:00:00+05:30",
-    "title": "Trinetra Comics website is live",
-    "text": "The official online home of the Trinetra Comics universe is now live.",
+    "title": "The official Trinetra Comics website is live",
+    "text": "Welcome to the online home of the Trinetra Universe. Explore its heroes, mythology and growing world.",
     "slug": "website-launch"
   },
   {
     "timestamp": "2026-08-19T16:30:00+05:30",
-    "title": "Phase 1 website update",
-    "text": "Search, sharing tools, hero navigation and the expanding franchise structure have been added.",
-    "slug": "phase-1-update"
-  },
-  {
-    "timestamp": "2026-08-19T16:00:00+05:30",
     "title": "The Trinetra hero roster expands",
-    "text": "Dedicated profile pages are being prepared for the heroes of the growing Trinetra Universe.",
+    "text": "Dedicated hero profiles are being developed as the Trinetra Universe grows beyond its first guardians.",
     "slug": "hero-roster-expands"
-  },
-  {
-    "timestamp": "2026-08-19T15:30:00+05:30",
-    "title": "Brahmansh — The Star Hunter",
-    "text": "Brahmansh Issue #1 remains the first featured story on the Trinetra Comics website.",
-    "slug": "brahmansh-star-hunter"
   }
 ]

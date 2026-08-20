@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }).catch(()=>{latest.innerHTML='<div class="latest-empty">Latest comics are being updated.</div>';});
   }
 
-  const updatesBox=document.querySelector("#latest-updates");
+  const updatesBox=document.querySelector("#latest-updates .updates-list");
   if(updatesBox){
     loadJSON("data/updates.json").then(items=>{
       items.sort((a,b)=>new Date(b.timestamp)-new Date(a.timestamp));
