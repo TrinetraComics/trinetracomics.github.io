@@ -21,3 +21,10 @@ The star rating is local to the visitor's browser. GitHub Pages cannot store glo
 
 ### Ordering
 The catalogue uses an `order` field for publication sequence, so no publication date is invented. Add the actual date later if desired.
+
+## Update notes
+- Homepage Latest Comics now shows cover on the left and issue/title/details + short description on the right.
+- Comics dropdown now opens five separate pages: All Comics, Latest Issues, Hindi Comics, English Comics, Where to Read.
+- Brahmansh Issue #2 is categorized as Hindi using the source document's Language field.
+- Tags from the supplied issue documents are displayed on issue pages.
+- The supplied documents do not state original publication dates; the site therefore displays **Posted 20 August 2026** as the website post date rather than inventing an original publication date.

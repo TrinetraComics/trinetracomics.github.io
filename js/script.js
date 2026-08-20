@@ -90,19 +90,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const latest=document.querySelector("#latest-comics");
   if(latest){
     loadJSON("data/comics.json").then(items=>{
-      items.sort((a,b)=>new Date(b.date)-new Date(a.date));
+      items.sort((a,b)=>(b.order||0)-(a.order||0)||new Date(b.date)-new Date(a.date));
       const top=items.slice(0,3);
       if(!top.length){latest.innerHTML='<div class="latest-empty">Latest comics will appear here.</div>';return;}
       latest.innerHTML=top.map(c=>`
         <a class="latest-comic-card" href="${c.page}">
-          <div class="latest-comic-cover">
-            <span class="issue">${c.issue||""}</span>
-            <h3>${c.hero||"TRINETRA COMICS"}</h3>
-            <h4>${c.title||""}</h4>
-          </div>
+          <div class="latest-comic-cover"><img loading="lazy" src="${c.cover}" alt="${c.hero} — ${c.title} cover"></div>
           <div class="latest-comic-body">
-            <span class="date">${new Date(c.date).toLocaleDateString("en-IN",{day:"2-digit",month:"short",year:"numeric"})}</span>
-            <p>${c.description||""}</p>
+            <span class="issue">${c.issue||""} · ${c.hero||"TRINETRA COMICS"}</span>
+            <h3>${c.title||""}</h3>
+            <span class="date">Posted ${c.dateDisplay||c.date||""}</span>
+            <p>${c.shortDescription||""}</p>
             <span class="text-link">VIEW COMIC →</span>
           </div>
         </a>`).join("");
