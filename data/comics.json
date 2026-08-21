@@ -124,5 +124,41 @@
       "images/comics/agniveer-02-preview-4.webp"
     ],
     "heroOrder": 2
+  },
+  {
+    "id": "vajra-01",
+    "order": 5,
+    "heroOrder": 1,
+    "date": "2026-08-21",
+    "dateDisplay": "21 August 2026",
+    "title": "The Storm Breaks",
+    "hero": "Vajra",
+    "issue": "Issue #1",
+    "language": "English",
+    "pages": 35,
+    "price": "Rs 59",
+    "priceNote": "Buy at discounted price on Amazon Kindle and Google Play Books",
+    "shortDescription": "Gritty tactical survival met ancient divine power when Inspector Saurabh Shukla’s police squad was ambushed by the high-tech, futuristic Pataal Syndicate in an abandoned Kashi silk factory.",
+    "description": "Welcome to an exciting issue of the Trinetra Universe! In VAJRA: The Storm Breaks — Issue #1, gritty tactical survival violently collides with epic Indian mythology. When Inspector Saurabh Shukla’s elite police squad is ambushed and decimated by the high-tech, ruthless Pataal Syndicate in the rain-drenched ruins of Varanasi, his only hope is his 16-year-old genius son, Atharv. Armed with nothing but a canvas bag of tools, basic chemistry, and a brilliant tactical mind, Atharv must outsmart heavily armed cyborg mercenaries in a deadly game of cat-and-mouse. But intellect can only get you so far against plasma weapons. When a desperate sacrifice brings Atharv face-to-face with an ancient, divine relic known as the Trinetra Fragment, he doesn’t just survive the night—he awakens the storm. Why You’ll Love This Issue: Epic World-Building: A perfect blend of Cyberpunk-style futuristic tech and ancient Hindu mythology. High-Octane Action: Reads like a high-budget cinematic blockbuster with strategic, Die Hard-style survival tactics. A New Kind of Hero: Witness the explosive origin story of a boy who uses his brain before his brawn, until he is forced to become a god. Grab your copy of Issue #1 today and witness the explosive birth of India’s newest superhero!",
+    "protagonists": "Vajra (The Fallen God) and Inspector Saurabh Shukla (a sincere police officer and father of Atharv).",
+    "antagonists": "Ruthless Commander of the Pataal Syndicate.",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/vajra-01-cover.webp",
+    "page": "comic-vajra-01.html",
+    "amazon": "https://www.amazon.in/Vajra-Storm-Breaks-TRINETRA-COMICS-ebook/dp/B0GHLP697P",
+    "google": "https://play.google.com/store/books/details/TRINETRA_COMICS_VAJRA?id=ocvOEQAAQBAJ",
+    "tags": [
+      "Comics",
+      "English",
+      "Action",
+      "Mythology",
+      "Vajra"
+    ],
+    "preview": [
+      "images/comics/vajra-01-preview-1.webp",
+      "images/comics/vajra-01-preview-2.webp",
+      "images/comics/vajra-01-preview-3.webp",
+      "images/comics/vajra-01-preview-4.webp"
+    ]
   }
 ]

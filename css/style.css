@@ -373,3 +373,60 @@
     radial-gradient(circle at 20% 20%,rgba(0,211,255,.09),transparent 28%),
     #050814;
 }
+
+/* ===== VAJRA + mobile navigation + visual blending ===== */
+.portrait-vajra img{width:100%;height:100%;object-fit:cover;display:block}
+.vajra-character-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.character-mini{border:1px solid var(--line);background:var(--panel);overflow:hidden}
+.character-mini-art{height:430px;background:#090d18;overflow:hidden}
+.character-mini-art img{width:100%;height:100%;object-fit:cover;display:block}
+.character-mini>div:last-child{padding:28px}
+.price-note{display:block;color:var(--accent);font-size:.78rem;line-height:1.5;margin-top:7px;font-weight:500}
+.profile-stat .price-note{font-size:.72rem}
+.menu-toggle{
+  cursor:pointer!important;
+  z-index:3000!important;
+  position:relative;
+  -webkit-tap-highlight-color:transparent;
+}
+@media(max-width:800px){
+  .site-header{z-index:3000!important}
+  .menu-toggle{display:block!important;width:42px;height:42px;line-height:42px;text-align:center;padding:0!important}
+  .nav{z-index:2999!important}
+  .nav.open{display:flex!important}
+  .nav-dropdown.open>.dropdown-menu{display:block!important;position:static!important}
+  .vajra-character-grid{grid-template-columns:1fr}
+  .character-mini-art{height:390px}
+}
+
+/* Make the homepage Trinetra artwork feel native to its surrounding cosmic field. */
+.hero{
+  background:
+    linear-gradient(90deg,rgba(5,8,20,.98) 0%,rgba(5,8,20,.88) 36%,rgba(5,8,20,.18) 73%,rgba(5,8,20,.08) 100%),
+    url("../images/trinetra-cosmic-bg.webp") right center/cover no-repeat,
+    #050814!important;
+}
+.hero-orb{
+  background:transparent!important;
+  border-radius:0!important;
+  -webkit-mask-image:radial-gradient(ellipse at center, #000 38%,rgba(0,0,0,.82) 57%,transparent 79%);
+  mask-image:radial-gradient(ellipse at center, #000 38%,rgba(0,0,0,.82) 57%,transparent 79%);
+}
+.hero-orb-image{
+  mix-blend-mode:normal!important;
+  opacity:.96!important;
+}
+@media(max-width:800px){
+  .hero{
+    background:
+      linear-gradient(180deg,rgba(5,8,20,.97) 0%,rgba(5,8,20,.82) 45%,rgba(5,8,20,.72) 100%),
+      url("../images/trinetra-cosmic-bg.webp") center/cover no-repeat,
+      #050814!important;
+  }
+  .hero-orb{
+    right:-16%!important;
+    width:78vw!important;
+    height:58vw!important;
+    opacity:.48!important;
+  }
+}
