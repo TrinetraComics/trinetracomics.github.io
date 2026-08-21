@@ -430,3 +430,92 @@
     opacity:.48!important;
   }
 }
+
+/* ===== Final polish: favicon, logo integration, full hero portraits, store buttons ===== */
+
+/* Make the supplied Trinetra logo feel embedded in the glassy cosmic header rather than floating on it. */
+.site-header .brand{
+  padding:3px 8px;
+  border-radius:16px;
+  background:radial-gradient(ellipse at center,rgba(255,167,57,.13) 0%,rgba(82,111,255,.06) 42%,transparent 74%);
+  box-shadow:0 0 22px rgba(255,151,46,.08);
+}
+.site-header .brand-logo{
+  filter:drop-shadow(0 0 7px rgba(255,171,54,.20)) drop-shadow(0 0 14px rgba(66,122,255,.10));
+  opacity:.96;
+}
+
+/* Do not crop the full Vajra/Vishraaj character portraits on hero cards. */
+.portrait-vajra,
+.portrait-vishraaj{
+  background:radial-gradient(circle at 50% 35%,#18274a 0%,#090d18 70%);
+}
+.portrait-vajra img,
+.portrait-vishraaj img{
+  width:100%;
+  height:100%;
+  object-fit:contain!important;
+  object-position:center center!important;
+  display:block;
+}
+
+/* Store / action buttons */
+.btn-amazon,
+.btn-google,
+.btn-preview{
+  color:#fff!important;
+  border:1px solid transparent!important;
+  font-weight:800!important;
+  box-shadow:0 7px 22px rgba(0,0,0,.25);
+  transition:transform .22s ease,box-shadow .22s ease,filter .22s ease;
+}
+.btn-amazon{
+  background:linear-gradient(135deg,#ffb52e 0%,#ff9900 58%,#e87900 100%)!important;
+  border-color:#ffb52e!important;
+  color:#171008!important;
+}
+.btn-google{
+  background:linear-gradient(135deg,#4285f4 0%,#4285f4 58%,#356ac3 100%)!important;
+  border-color:#70a0ff!important;
+}
+.btn-preview{
+  background:linear-gradient(135deg,#00b8d9 0%,#246bdb 52%,#7654d8 100%)!important;
+  border-color:#5ddcff!important;
+}
+.btn-amazon:hover,
+.btn-google:hover,
+.btn-preview:hover{
+  transform:translateY(-3px);
+  filter:brightness(1.09);
+  box-shadow:0 12px 30px rgba(0,0,0,.38),0 0 18px rgba(86,172,255,.14);
+}
+.preview-continue{
+  margin:18px 0 0;
+  text-align:center;
+  color:#8f9ab1;
+  font-size:12px;
+  letter-spacing:.6px;
+}
+.preview-continue::before{
+  content:"";
+  display:block;
+  width:55px;
+  height:1px;
+  margin:0 auto 12px;
+  background:#303850;
+}
+@media(max-width:800px){
+  .site-header .brand{padding:2px 5px}
+  .btn-amazon,.btn-google,.btn-preview{width:100%}
+}
+
+/* Stronger header integration around the supplied Trinetra mark. */
+.site-header{
+  background:
+    radial-gradient(ellipse at 5% 50%,rgba(255,146,35,.12) 0%,rgba(255,146,35,.035) 16%,transparent 32%),
+    radial-gradient(ellipse at 20% 50%,rgba(50,139,255,.055) 0%,transparent 30%),
+    rgba(5,7,17,.90)!important;
+}
+.site-header .brand-logo{
+  mix-blend-mode:normal;
+}

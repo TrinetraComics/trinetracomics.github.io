@@ -178,3 +178,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 /* Hero dropdown links use native browser navigation. No click interception. */
+
+/* Add the continuation cue beneath page 4 of every comic preview. */
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("#preview .preview-grid").forEach(function (grid) {
+    if (!grid.parentElement.querySelector(".preview-continue")) {
+      const note=document.createElement("p");
+      note.className="preview-continue";
+      note.textContent="Continue reading on Google Play Books and Amazon Kindle.";
+      grid.insertAdjacentElement("afterend",note);
+    }
+  });
+});
