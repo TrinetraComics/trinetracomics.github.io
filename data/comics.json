@@ -335,5 +335,63 @@
       "images/comics/vishraaj-03-hi-preview-3.webp",
       "images/comics/vishraaj-03-hi-preview-4.webp"
     ]
+  },
+  {
+    "id": "vyomika-01-en",
+    "order": 11,
+    "date": "2026-08-22",
+    "dateDisplay": "22 August 2026",
+    "title": "The Overlap",
+    "hero": "Vyomika",
+    "issue": "Issue #1",
+    "language": "English",
+    "pages": 39,
+    "price": "Free",
+    "shortDescription": "A brilliant architect must weaponize the laws of physics to save Kolkata from an apocalyptic terrorist plot, all while her family remains trapped exactly one millimeter outside of reality.",
+    "description": "In the breathtaking premiere issue of Vyomika, Dr. Avni Mathur becomes the Architect of Space after a catastrophic spatial-engine explosion fuses her cellular structure with space and gravity. Her husband and five-year-old daughter are trapped in The Overlap, exactly one millimeter outside base reality, while VANGARD prepares a multidimensional apocalypse.",
+    "protagonists": "Vyomika (Dr. Avni Mathur), The Phantoms (Kabir & Indu)",
+    "antagonists": "Commander Vance (Rupture) and VANGARD",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/vyomika-01-en-cover.webp",
+    "page": "comic-vyomika-01-en.html",
+    "amazon": "https://www.amazon.in/VYOMIKA-OVERLAP-TRINETRA-COMICS-ebook/dp/B0GYKK31JK",
+    "google": "https://play.google.com/store/books/details?id=7enTEQAAQBAJ",
+    "tags": [
+      "Comics",
+      "English",
+      "Action",
+      "Emotional",
+      "Vyomika"
+    ],
+    "heroOrder": 11
+  },
+  {
+    "id": "vyomika-01-hi",
+    "order": 12,
+    "date": "2026-08-22",
+    "dateDisplay": "22 August 2026",
+    "title": "द ओवरलैप",
+    "hero": "Vyomika",
+    "issue": "Issue #1",
+    "language": "Hindi",
+    "pages": 39,
+    "price": "Free",
+    "shortDescription": "एक प्रतिभाशाली आर्किटेक्ट को कोलकाता शहर को एक खूंखार आतंकवादी की विनाशकारी साजिश से बचाने के लिए भौतिकी के नियमों को तोड़ना होगा, जबकि उसका अपना परिवार वास्तविकता से ठीक एक मिलीमीटर बाहर फंसा हुआ है।",
+    "description": "व्योमिका के पहले अंक में डॉ. अवनी माथुर अंतरिक्ष की रक्षक बनती हैं, जब एक विनाशकारी Spatial Engine विस्फोट उनके शरीर को अंतरिक्ष और गुरुत्वाकर्षण के ताने-बाने से जोड़ देता है। उनके पति और पाँच साल की बेटी The Overlap में वास्तविकता से एक मिलीमीटर बाहर फंस जाते हैं, जबकि VANGARD बहुआयामी प्रलय की तैयारी करता है।",
+    "protagonists": "व्योमिका (डॉ. अवनी माथुर), द फैंटम्स (कबीर और इंदु)",
+    "antagonists": "कमांडर वेंस (रप्चर) और वैनगार्ड",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/vyomika-01-hi-cover.webp",
+    "page": "comic-vyomika-01-hi.html",
+    "amazon": "https://www.amazon.in/VYOMIKA-OVERLAP-TRINETRA-COMICS-ebook/dp/B0GYKK31JK",
+    "google": "https://play.google.com/store/books/details?id=E5DYEQAAQBAJ",
+    "tags": [
+      "Comics",
+      "Hindi",
+      "Action",
+      "Emotional",
+      "Vyomika"
+    ],
+    "heroOrder": 12
   }
 ]
