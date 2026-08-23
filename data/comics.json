@@ -393,5 +393,110 @@
       "Vyomika"
     ],
     "heroOrder": 12
+  },
+  {
+    "id": "yantrik-01-en",
+    "order": 13,
+    "date": "2026-08-23",
+    "dateDisplay": "23 August 2026",
+    "title": "Grid-lock",
+    "hero": "Yantrik",
+    "issue": "Issue #1",
+    "language": "English",
+    "pages": 35,
+    "price": "Free",
+    "shortDescription": "A high-octane sci-fi action thriller where a billionaire heir uses elite parkour, physics, and a prototype tactical suit to stop a grieving cyber-terrorist from turning an automated city transit grid into a weapon of mass destruction.",
+    "description": "Corporate progress has just become a weapon. Siddhant Singhania is the heir to a ruthless billion-dollar empire, but he refuses to inherit his father’s sociopathic legacy. When Kanpur’s brand-new Smart-Grid automated transit system is violently hacked, 40-ton transport trucks are transformed into unguided missiles tearing through crowded streets. To save the city his father is trying to conquer, Siddhant must don a secretly funded prototype tactical suit and become the vigilante known as Yantrik. Armed with no superpowers—only his genius intellect, elite athletic agility, and a philosophy of Mind Over Matter—Yantrik faces impossible odds. He must confront Gridlock, a tragic cyber-terrorist strapped into a heavily modified, weaponized industrial exoskeleton. As the physical battle pushes Yantrik’s flawed prototype suit to its breaking point, he uncovers a dark, bloody secret about his own family that will change his life forever.",
+    "protagonists": "Yantrik (Real Name: Siddhant Singhania): A 23-year-old billionaire heir and tactical genius. Disgusted by his father’s corruption, he secretly fights for the innocent. Yantrik has no meta-human powers; he relies entirely on Olympic-level parkour, advanced physics, and specialized grappling technology to outmaneuver enemies much larger than himself. He is deeply empathetic, fiercely determined, and highly analytical.",
+    "antagonists": "Gridlock (Real Name: Ramesh): The former Chief Architect of the Singhania Smart-Grid. After Vikramaditya Singhania stole his algorithm and orchestrated a deliberate traffic jam that led to the death of Ramesh’s wife, grief drove him to madness. Now, wired directly into the city’s mainframe and wearing a massive, stolen Singhania Heavy-Lift Exoskeleton, Gridlock is a walking tank seeking apocalyptic revenge against the Singhania name.",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/yantrik-01-en-cover.webp",
+    "page": "comic-yantrik-01-en.html",
+    "amazon": "https://www.amazon.in/GRIDLOCK-YANTRIK-TRINETRA-COMICS-Book-ebook/dp/B0GV3MB2NM",
+    "google": "https://play.google.com/store/books/details?id=1CDMEQAAQBAJ",
+    "tags": [
+      "Comics",
+      "English",
+      "Action",
+      "Emotional",
+      "Yantrik"
+    ],
+    "heroOrder": 13,
+    "preview": [
+      "images/comics/yantrik-01-en-preview-1.webp",
+      "images/comics/yantrik-01-en-preview-2.webp",
+      "images/comics/yantrik-01-en-preview-3.webp",
+      "images/comics/yantrik-01-en-preview-4.webp"
+    ]
+  },
+  {
+    "id": "yantrik-01-hi",
+    "order": 14,
+    "date": "2026-08-23",
+    "dateDisplay": "23 August 2026",
+    "title": "ग्रिडलॉक",
+    "hero": "Yantrik",
+    "issue": "Issue #1",
+    "language": "Hindi",
+    "pages": 37,
+    "price": "Rs 59",
+    "shortDescription": "एक हाई-वोल्टेज साई-फाई एक्शन थ्रिलर, जहाँ एक अरबपति वारिस भौतिक विज्ञान, एलीट पार्कौर और एक प्रोटोटाइप सामरिक सूट का उपयोग करके एक साइबर-आतंकवादी को रोकता है, जिसने शहर के ऑटोमेटेड ट्रांजिट ग्रिड को विनाश के हथियार में बदल दिया है।",
+    "description": "कॉर्पोरेट तरक्की अब एक हथियार बन चुकी है। सिद्धांत सिंघानिया एक क्रूर अरबपति साम्राज्य का वारिस है, लेकिन वह अपने पिता की अमानवीय विरासत को अपनाने से इंकार कर देता है। जब कानपुर के नए स्मार्ट-ग्रिड ऑटोमेटेड ट्रांजिट सिस्टम को हैक कर लिया जाता है, तो ४० टन के ट्रांसपोर्ट ट्रक मिसाइलों में तब्दील होकर भीड़भाड़ वाली सड़कों पर तबाही मचाने लगते हैं। जिस शहर पर उसके पिता कब्ज़ा करना चाहते हैं, उसे बचाने के लिए सिद्धांत को एक गुप्त रूप से बनाया गया प्रोटोटाइप सामरिक सूट पहनकर यांत्रिक बनना पड़ता है। यांत्रिक के पास कोई जादुई महाशक्तियां नहीं हैं—वह केवल अपनी कुशाग्र बुद्धि, फुर्ती और माइंड ओवर मैटर के सिद्धांत पर निर्भर है। उसका सामना ग्रिडलॉक से होता है, जो एक खूंखार साइबर-आतंकवादी है और एक भारी-भरकम हथियारों से लैस इंडस्ट्रियल एक्सोस्केलेटन पहने हुए है। जैसे-जैसे यह खौफनाक लड़ाई यांत्रिक के कमजोर प्रोटोटाइप सूट को टूटने की कगार पर ले जाती है, उसे अपने ही परिवार का एक ऐसा खूनी और काला सच पता चलता है जो उसकी जिंदगी को हमेशा के लिए बदल देगा।",
+    "protagonists": "यांत्रिक (असली नाम: सिद्धांत सिंघानिया): २३ वर्षीय अरबपति वारिस और एक चतुर रणनीतिकार। अपने पिता के भ्रष्टाचार से नफरत करने वाला सिद्धांत, छिपकर मासूमों की रक्षा करता है। यांत्रिक के पास कोई सुपरपावर नहीं है; वह अपने से बड़े और खतरनाक दुश्मनों को हराने के लिए पूरी तरह से ओलंपिक-स्तर के पार्कौर, भौतिक विज्ञान और ग्रैपलिंग तकनीक पर निर्भर करता है। वह बेहद भावुक, दृढ़ निश्चयी और विश्लेषणात्मक दिमाग वाला युवा है।",
+    "antagonists": "ग्रिडलॉक (असली नाम: रमेश): सिंघानिया स्मार्ट-ग्रिड का पूर्व मुख्य आर्किटेक्ट। विक्रमादित्य सिंघानिया ने उसका कोड चुरा लिया और जानबूझकर एक ऐसा ट्रैफिक जाम करवाया जिसमें रमेश की पत्नी की जान चली गई। इस दुख ने उसे पागल कर दिया है। अब, शहर के मेनफ्रेम से सीधे जुड़ा हुआ और एक विशाल सिंघानिया हैवी-लिफ्ट एक्सोस्केलेटन पहने हुए, ग्रिडलॉक एक चलते-फिरते टैंक में तब्दील हो चुका है, जिसका एकमात्र मकसद सिंघानिया नाम को दुनिया से मिटाना है।",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/yantrik-01-hi-cover.webp",
+    "page": "comic-yantrik-01-hi.html",
+    "amazon": "https://www.amazon.in/GRIDLOCK-YANTRIK-TRINETRA-COMICS-Book-ebook/dp/B0GV3MB2NM",
+    "google": "https://play.google.com/store/books/details?id=Qi74EQAAQBAJ",
+    "tags": [
+      "Comics",
+      "Hindi",
+      "Action",
+      "Emotional",
+      "Yantrik"
+    ],
+    "heroOrder": 14,
+    "preview": [
+      "images/comics/yantrik-01-hi-preview-1.webp",
+      "images/comics/yantrik-01-hi-preview-2.webp",
+      "images/comics/yantrik-01-hi-preview-3.webp",
+      "images/comics/yantrik-01-hi-preview-4.webp"
+    ]
+  },
+  {
+    "id": "yantrik-02-en",
+    "order": 15,
+    "date": "2026-08-23",
+    "dateDisplay": "23 August 2026",
+    "title": "Raktbeej",
+    "hero": "Yantrik",
+    "issue": "Issue #2",
+    "language": "English",
+    "pages": 33,
+    "price": "Free",
+    "shortDescription": "A gripping sci-fi horror superhero thriller where Yantrik must track down a terrifying mutated scientist who uses his own radioactive blood as a weapon, after the villain abducts Siddhant’s comatose mother from an impenetrable corporate fortress.",
+    "description": "Siddhant Singhania thought he understood the depths of his father’s corporate cruelty, but the past has returned to collect its toll in blood. When a phantom assassin violently breaches the heavily fortified Singhania Medical Wing and abducts Siddhant’s comatose mother, Maya, the rules of the game change permanently. The attacker leaves no fingerprints and uses no guns—only razor-sharp, geometric blades forged from his own floating, radioactive blood. Enter Dr. Arindam Sen, a brilliant, betrayed scientist mutated by the experimental Trinetra code into Raktbeej, an apex predator driven by psychotic vengeance against the Singhania empire. Stripped of his tactical advantages and fueled by sheer desperation, Yantrik tracks this biological nightmare to an abandoned, highly toxic bio-chem plant on the decaying outskirts of Kanpur. Trapped in a claustrophobic cage of floating blood-blades, Yantrik realizes his usual kinetic acrobatics will fail. He must rely on thermodynamics, physics, and a massive liquid nitrogen trap to freeze the unstoppable monster. However, defeating Raktbeej unearths a horrifying decade-old secret about his father’s betrayal—and places Yantrik directly in the crosshairs of a heavily armed Black-Ops mercenary squad led by his own father.",
+    "protagonists": "Yantrik (Real Name: Siddhant Singhania): A 23-year-old billionaire heir operating as a highly tactical vigilante. Driven by empathy and a desperate need to protect his comatose mother, Siddhant actively fights against his father’s ruthless corporate legacy. Operating completely without superpowers, he utilizes a sleek prototype suit, elite parkour agility, and his signature Mind Over Matter philosophy. In this issue, his emotional limits are pushed to the absolute brink, forcing him to suppress his panic and rely on his genius-level intellect and environmental physics to survive an overwhelmingly lethal biological threat.",
+    "antagonists": "Raktbeej (Real Name: Dr. Arindam Sen): Once an idealistic scientist on the verge of a world-changing medical breakthrough (the Trinetra code), Dr. Sen was brutally betrayed, beaten, and left for dead by Vikramaditya Singhania ten years ago. Forced to inject himself with a volatile, highly toxic synthetic coagulant fused with the raw Trinetra code to survive, he mutated into a horrifying biological weapon. As Raktbeej, gravity does not affect his blood; he can manipulate his own radioactive, crimson veins, instantly crystallizing his blood into floating, razor-sharp nano-blades, buzzsaws, and massive crushing tendrils. He is a tragic but deeply psychotic villain, consumed by a decade of festering rage and a desire to tear down the Singhania empire—starting with Vikramaditya’s wife and son. Vikramaditya Singhania (Secondary/Looming Antagonist): The ruthless CEO of Singhania Corp and Siddhant’s father. While he doesn’t physically fight Yantrik in this issue, his past sins created the monster Raktbeej, and his heavily armed arrival at the climax represents the overarching, inescapable threat of the corporate empire.",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/yantrik-02-en-cover.webp",
+    "page": "comic-yantrik-02-en.html",
+    "amazon": "https://www.amazon.in/RAKTBEEJ-YANTRIK-TRINETRA-COMICS-Book-ebook/dp/B0GV3M12YL",
+    "google": "https://play.google.com/store/books/details?id=wirMEQAAQBAJ",
+    "tags": [
+      "Comics",
+      "English",
+      "Action",
+      "Emotional",
+      "Yantrik"
+    ],
+    "heroOrder": 15,
+    "preview": [
+      "images/comics/yantrik-02-en-preview-1.webp",
+      "images/comics/yantrik-02-en-preview-2.webp",
+      "images/comics/yantrik-02-en-preview-3.webp",
+      "images/comics/yantrik-02-en-preview-4.webp"
+    ]
   }
 ]
