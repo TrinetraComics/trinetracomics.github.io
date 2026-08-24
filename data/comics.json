@@ -498,5 +498,178 @@
       "images/comics/yantrik-02-en-preview-3.webp",
       "images/comics/yantrik-02-en-preview-4.webp"
     ]
+  },
+  {
+    "id": "kavach-01-en",
+    "order": 16,
+    "date": "2026-08-24",
+    "dateDisplay": "24 August 2026",
+    "title": "The Ghost",
+    "hero": "Kavach",
+    "issue": "Issue #1",
+    "language": "English",
+    "pages": 43,
+    "price": "Free",
+    "shortDescription": "A heavily armored, kinetic-energy-wielding operative fights a shadow war against the OMEGA syndicate while protecting his former partner and lost love, Ananya.",
+    "description": "Issue #1 opens with a silent assault on an OMEGA weapons shipment before flashing back to Major Shaurya Pratap’s transformation in the Thar Desert. In the present, the Ghost Protocol keeps Shaurya legally dead as Ananya hunts the syndicate. When an ambush traps her, Kavach breaks protocol to save her, revealing just enough of Shaurya’s fighting style to ignite a dangerous hope.",
+    "protagonists": "Kavach (Major Shaurya Pratap): a rugged former Indian commando turned ghost operative. Ananya: Shaurya’s former partner, a lethal tactical operative hunting OMEGA.",
+    "antagonists": "THE OMEGA: a clinical, silent syndicate. The Echelons: elite lieutenants with advanced bio-weapons. The Erasers: faceless strike teams with magnetic rail-carbines.",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/kavach-01-en-cover.webp",
+    "page": "comic-kavach-01-en.html",
+    "amazon": "https://www.amazon.in/KAVACH-GHOST-TRINETRA-COMICS-Book-ebook/dp/B0H1QM2QYS",
+    "google": "https://play.google.com/store/books/details?id=gw3ZEQAAQBAJ",
+    "tags": [
+      "Comics",
+      "English",
+      "Action",
+      "Crime",
+      "Kavach"
+    ],
+    "preview": [
+      "images/comics/kavach-01-en-preview-1.webp",
+      "images/comics/kavach-01-en-preview-2.webp",
+      "images/comics/kavach-01-en-preview-3.webp",
+      "images/comics/kavach-01-en-preview-4.webp"
+    ]
+  },
+  {
+    "id": "kavach-01-hi",
+    "order": 17,
+    "date": "2026-08-24",
+    "dateDisplay": "24 August 2026",
+    "title": "द घोस्ट",
+    "hero": "Kavach",
+    "issue": "Issue #1",
+    "language": "Hindi",
+    "pages": 43,
+    "price": "Free",
+    "shortDescription": "अंक 1 में कवच, क्रूर ओमेगा सिंडिकेट के खिलाफ गुप्त युद्ध लड़ता है और अपनी पूर्व साथी अनन्या को बचाने के लिए अपनी असली पहचान छिपाते हुए प्रोटोकॉल तोड़ता है।",
+    "description": "द घोस्ट एक तटीय शिपयार्ड में ओमेगा के हथियारों पर कवच के हमले से शुरू होता है, फिर थार रेगिस्तान में तीन साल पुराने उस हादसे की ओर लौटता है जिसने मेजर शौर्य प्रताप को बदल दिया। वर्तमान में अनन्या ओमेगा का पीछा करते हुए एक घात में फंस जाती है और कवच उसे बचाने के लिए सामने आता है।",
+    "protagonists": "कवच (मेजर शौर्य प्रताप): पूर्व भारतीय कमांडो और घोस्ट ऑपरेटिव। अनन्या: शौर्य की पूर्व साथी और ओमेगा का शिकार करने वाली सामरिक योद्धा।",
+    "antagonists": "द ओमेगा, उसके एशेलॉन्स और चेहराविहीन इरेज़र्स।",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/kavach-01-hi-cover.webp",
+    "page": "comic-kavach-01-hi.html",
+    "amazon": "https://www.amazon.in/KAVACH-GHOST-TRINETRA-COMICS-Book-ebook/dp/B0H1QM2QYS",
+    "google": "https://play.google.com/store/books/details?id=gw3ZEQAAQBAJ",
+    "tags": [
+      "Comics",
+      "Hindi",
+      "Action",
+      "Crime",
+      "Kavach"
+    ],
+    "preview": [
+      "images/comics/kavach-01-hi-preview-1.webp",
+      "images/comics/kavach-01-hi-preview-2.webp",
+      "images/comics/kavach-01-hi-preview-3.webp",
+      "images/comics/kavach-01-hi-preview-4.webp"
+    ]
+  },
+  {
+    "id": "mantra-01-hi",
+    "order": 18,
+    "date": "2026-08-24",
+    "dateDisplay": "24 August 2026",
+    "title": "मायावी अक्स",
+    "hero": "Mantra",
+    "issue": "Issue #1",
+    "language": "Hindi",
+    "pages": 51,
+    "price": "Free",
+    "shortDescription": "एक हाई-टेक स्टेज पर बंद कमरे की हत्या, जहाँ कैमरों ने सब कुछ देखा—लेकिन कुछ भी रिकॉर्ड नहीं किया। सच तक पहुँचने के लिए ऐसी जासूस चाहिए जो दिमाग नहीं, इंसानी शरीर पढ़ती हो।",
+    "description": "मुंबई के मशहूर जादूगर राघव विरानी की हत्या उनके अत्याधुनिक रिफ्लेक्शन चैंबर में होती है। छह रोबोटिक कैमरे चालू होने के बावजूद कोई भी कातिल को छूते हुए नहीं देखता। मंत्रा मिश्रा अपनी Kinesic Telepathy और Memory Palace से अपराध को फिर से बनाती है और इस असंभव हत्या के पीछे द ओमेगा की बड़ी साजिश खोज निकालती है।",
+    "protagonists": "मंत्रा मिश्रा: ग्लैमरस और निडर प्राइवेट डिटेक्टिव। इंस्पेक्टर अविनाश: मुंबई पुलिस के व्यावहारिक अधिकारी। सैम: मंत्रा का विशाल और वफादार बॉडीगार्ड।",
+    "antagonists": "रहस्यमयी कातिल, द ओमेगा के भाड़े के हत्यारे और द ओमेगा सिंडिकेट।",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/mantra-01-hi-cover.webp",
+    "page": "comic-mantra-01-hi.html",
+    "amazon": "https://www.amazon.in/VAISHNAVI-FORGOTTEN-GODDESS-TRINETRA-COMICS-ebook/dp/B0H7WT61WM",
+    "google": "https://play.google.com/store/books/details?id=EiEBEgAAQBAJ",
+    "tags": [
+      "Comics",
+      "Hindi",
+      "Action",
+      "Mystery",
+      "Crime",
+      "Mantra"
+    ],
+    "preview": [
+      "images/comics/mantra-01-hi-preview-1.webp",
+      "images/comics/mantra-01-hi-preview-2.webp",
+      "images/comics/mantra-01-hi-preview-3.webp",
+      "images/comics/mantra-01-hi-preview-4.webp"
+    ]
+  },
+  {
+    "id": "vaishnavi-01-en",
+    "order": 19,
+    "date": "2026-08-24",
+    "dateDisplay": "24 August 2026",
+    "title": "The Forgotten Godess",
+    "hero": "Vaishnavi",
+    "issue": "Issue #1",
+    "language": "English",
+    "pages": 48,
+    "price": "Rs 49",
+    "priceNote": "Read at discount on Amazon Kindle and Google Play Books",
+    "shortDescription": "In Kochi, a traumatized scientist’s nightmares bleed into reality. When the Kshaya attack, Dr. Ahana Roy awakens as Vaishnavi—the forgotten goddess of sacred geometry.",
+    "description": "Dr. Ahana Roy’s reality-warping abilities attract the Kshaya and awaken Vaishnavi. Her clash with the chaos-entity Yugant projects an astrological map toward the Arabian Sea, where she discovers a living, high-tech Dwarka and faces a war that is only beginning.",
+    "protagonists": "Vaishnavi (Dr. Ahana Roy): the forgotten goddess of cosmic geometry. Dr. Vikrant Varma: a marine scientist caught in the revelation of Dwarka.",
+    "antagonists": "The Kshaya: anti-matter entities of chaos. Yugant, the Time-Devourer: a colossal dark-energy chaos entity seeking to consume reality.",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/vaishnavi-01-en-cover.webp",
+    "page": "comic-vaishnavi-01-en.html",
+    "amazon": "https://www.amazon.in/VAISHNAVI-FORGOTTEN-GODDESS-TRINETRA-COMICS-ebook/dp/B0H7WT61WM",
+    "google": "https://play.google.com/store/books/details?id=YpbxEQAAQBAJ",
+    "tags": [
+      "Comics",
+      "English",
+      "Action",
+      "Mythological",
+      "Vaishnavi"
+    ],
+    "preview": [
+      "images/comics/vaishnavi-01-en-preview-1.webp",
+      "images/comics/vaishnavi-01-en-preview-2.webp",
+      "images/comics/vaishnavi-01-en-preview-3.webp",
+      "images/comics/vaishnavi-01-en-preview-4.webp"
+    ]
+  },
+  {
+    "id": "vaishnavi-01-hi",
+    "order": 20,
+    "date": "2026-08-24",
+    "dateDisplay": "24 August 2026",
+    "title": "विस्मृत देवी",
+    "hero": "Vaishnavi",
+    "issue": "Issue #1",
+    "language": "Hindi",
+    "pages": 48,
+    "price": "Rs 69",
+    "priceNote": "Read at discounted price on Amazon Kindle and Google Play Books",
+    "shortDescription": "कोच्चि की बारिश से भीगी सड़कों पर एक वैज्ञानिक के बुरे सपने वास्तविकता बनने लगते हैं। क्षय के हमले के बीच डॉ. अहाना रॉय वैष्णवी—ज्यामिति की विस्मृत देवी—के रूप में जागृत होती हैं।",
+    "description": "डॉ. अहाना रॉय की अचेतन शक्तियां वास्तविकता को मोड़ने लगती हैं और क्षय को आकर्षित करती हैं। युगांत के साथ उनका युद्ध अरब सागर की ओर एक ब्रह्मांडीय नक्शा बनाता है, जहाँ वैष्णवी प्राचीन, हाई-टेक द्वारका और एक नए देव-युद्ध का रहस्य खोजती हैं।",
+    "protagonists": "वैष्णवी (डॉ. अहाना रॉय): ब्रह्मांडीय ज्यामिति की विस्मृत देवी। डॉ. विक्रांत वर्मा: सिंघानिया कॉर्प के समुद्री रिग पर मौजूद वैज्ञानिक।",
+    "antagonists": "क्षय: एंटी-मैटर और अराजकता से बने राक्षस। युगांत (काल-भक्षक): डार्क एनर्जी से बना विशाल ब्रह्मांडीय खतरा।",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/vaishnavi-01-hi-cover.webp",
+    "page": "comic-vaishnavi-01-hi.html",
+    "amazon": "https://www.amazon.in/VAISHNAVI-FORGOTTEN-GODDESS-TRINETRA-COMICS-ebook/dp/B0H7WT61WM",
+    "google": "https://play.google.com/store/books/details?id=7gXsEQAAQBAJ",
+    "tags": [
+      "Comics",
+      "Hindi",
+      "Action",
+      "Mythological",
+      "Vaishnavi"
+    ],
+    "preview": [
+      "images/comics/vaishnavi-01-hi-preview-1.webp",
+      "images/comics/vaishnavi-01-hi-preview-2.webp",
+      "images/comics/vaishnavi-01-hi-preview-3.webp",
+      "images/comics/vaishnavi-01-hi-preview-4.webp"
+    ]
   }
 ]

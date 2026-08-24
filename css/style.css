@@ -535,3 +535,16 @@
 @media(max-width:800px){.character-art-image{height:520px;min-height:0;padding:8px}}
 
 .portrait-yantrik{background:radial-gradient(circle at 50% 30%,#263b59,#080b15 68%)}.portrait-yantrik img{width:100%;height:100%;object-fit:contain;object-position:center center;display:block}
+
+/* ===== KAVACH / MANTRA / VAISHNAVI + VISITOR COUNTER ===== */
+.portrait-kavach,.portrait-mantra,.portrait-vaishnavi{background:radial-gradient(circle at 50% 30%,#243b68 0%,#090d18 70%);}
+.portrait-kavach img,.portrait-mantra img,.portrait-vaishnavi img{width:100%;height:100%;object-fit:contain!important;object-position:center center!important;display:block;}
+.hero-art-contain{background:radial-gradient(circle at 50% 35%,#17294d 0%,#070a14 72%);overflow:hidden;}
+.hero-art-contain img{object-fit:contain!important;object-position:center center!important;width:100%;height:100%;display:block;}
+.visitor-section{padding-top:65px;padding-bottom:65px;}
+.visitor-counter-card{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:30px;border:1px solid var(--line);background:radial-gradient(circle at 85% 50%,rgba(0,211,255,.10),transparent 35%),var(--panel);}
+.visitor-counter-card h2{margin:10px 0;font-size:48px;}
+.visitor-count-display{min-width:160px;text-align:center;padding:20px 25px;border:1px solid #34405c;background:#080d18;}
+.visitor-count-display span{display:block;font:800 44px/1 'Barlow Condensed',sans-serif;color:var(--accent);}
+.visitor-count-display small{font-size:9px;letter-spacing:2px;color:#8993a5;}
+@media(max-width:800px){.visitor-counter-card{flex-direction:column;align-items:flex-start}.visitor-count-display{width:100%;box-sizing:border-box}.hero-art-contain{height:430px!important}.character-art-image.hero-art-contain img{object-fit:contain!important;}}
