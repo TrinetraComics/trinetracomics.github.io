@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700" role="img" aria-labelledby="title desc">
+<title id="title">Trinetra cosmic sigil</title><desc id="desc">A stylized cosmic third-eye and trident symbol representing the Trinetra universe.</desc>
+<defs>
+ <radialGradient id="halo"><stop offset="0" stop-color="#61d9ff" stop-opacity=".34"/><stop offset=".42" stop-color="#7c5cff" stop-opacity=".16"/><stop offset="1" stop-color="#0a1026" stop-opacity="0"/></radialGradient>
+ <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#ffd86a"/><stop offset=".5" stop-color="#ff9b3d"/><stop offset="1" stop-color="#ffe89a"/></linearGradient>
+ <linearGradient id="cyan" x1="0" x2="1"><stop stop-color="#61e6ff"/><stop offset=".5" stop-color="#8a6cff"/><stop offset="1" stop-color="#61e6ff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="9" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<circle cx="350" cy="350" r="330" fill="url(#halo)"/>
+<g fill="none" stroke="url(#cyan)" stroke-width="2" opacity=".34">
+ <ellipse cx="350" cy="350" rx="285" ry="100" transform="rotate(24 350 350)"/><ellipse cx="350" cy="350" rx="285" ry="100" transform="rotate(-24 350 350)"/>
+ <circle cx="350" cy="350" r="250" stroke-dasharray="3 13"/><circle cx="350" cy="350" r="205" stroke-dasharray="1 11"/>
+</g>
+<g filter="url(#glow)" fill="none" stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round">
+ <path stroke-width="12" d="M350 465V160"/>
+ <path stroke-width="12" d="M350 170 C315 132 294 92 300 54 C326 72 345 98 350 124 C355 98 374 72 400 54 C406 92 385 132 350 170Z"/>
+ <path stroke-width="10" d="M350 170 C325 202 288 218 246 205 C265 176 295 158 330 154"/>
+ <path stroke-width="10" d="M350 170 C375 202 412 218 454 205 C435 176 405 158 370 154"/>
+ <path stroke-width="9" d="M350 250 C315 215 268 215 232 250 C272 265 316 271 350 250Z"/>
+ <path stroke-width="9" d="M350 250 C385 215 432 215 468 250 C428 265 384 271 350 250Z"/>
+</g>
+<path d="M270 350 Q350 292 430 350 Q350 408 270 350Z" fill="#07101f" stroke="url(#cyan)" stroke-width="7" filter="url(#glow)"/>
+<ellipse cx="350" cy="350" rx="35" ry="46" fill="url(#gold)" filter="url(#glow)"/>
+<circle cx="350" cy="350" r="12" fill="#07101f"/>
+<path d="M315 443 Q350 463 385 443" fill="none" stroke="url(#cyan)" stroke-width="5" opacity=".8"/>
+</svg>
