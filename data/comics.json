@@ -671,5 +671,40 @@
       "images/comics/vaishnavi-01-hi-preview-3.webp",
       "images/comics/vaishnavi-01-hi-preview-4.webp"
     ]
+  },
+  {
+    "id": "agniveer-03",
+    "order": 21,
+    "date": "2026-08-25",
+    "dateDisplay": "25 August 2026",
+    "hero": "Agniveer",
+    "issue": "Issue #3",
+    "title": "खंडहर का प्रहार",
+    "language": "Hindi",
+    "shortDescription": "लखनऊ की ऐतिहासिक इमारतों पर मंडराया खंडहर का साया! एक प्राचीन पत्थर का राक्षस शहर को धूल में मिलाने आ रहा है।",
+    "description": "जब गोमती नदी का पानी उबलने लगे, तो समझ लीजिए कि आग का देवता लौट आया है। अग्निवीर को खंडहर के विनाशकारी हमले के बीच अपनी आदिम शक्तियों की हर सीमा पार करनी होगी।",
+    "protagonists": "अग्निवीर (आरव राठौर), नेहा",
+    "antagonists": "खंडहर; कैमो उपस्थिति — ककाल",
+    "publisher": "Trinetra Comics Universe (TCU)",
+    "cover": "images/comics/agniveer-03-cover.webp",
+    "page": "comic-agniveer-03.html",
+    "amazon": "https://www.amazon.in/अग्नीवीर-AGNIVEER-Awakening-TRINETRA-COMICS-ebook/dp/B0GQ3JGV56/",
+    "google": "https://play.google.com/store/books/details?id=Rh3xEQAAQBAJ",
+    "price": "Rs 59",
+    "pages": 45,
+    "tags": [
+      "Comics",
+      "English",
+      "Action",
+      "Mythology",
+      "Agniveer"
+    ],
+    "preview": [
+      "images/comics/agniveer-03-preview-1.webp",
+      "images/comics/agniveer-03-preview-2.webp",
+      "images/comics/agniveer-03-preview-3.webp",
+      "images/comics/agniveer-03-preview-4.webp"
+    ],
+    "heroOrder": 3
   }
 ]

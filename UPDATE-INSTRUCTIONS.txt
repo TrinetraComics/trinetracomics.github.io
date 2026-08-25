@@ -1,0 +1,15 @@
+TRINETRA COMICS — PARTIAL WEBSITE UPDATE
+
+Copy these files/folders over the corresponding files in the existing website.
+This ZIP intentionally contains ONLY the files changed for this update; do not delete other website files.
+
+Changes included:
+1. Homepage cosmic hero corrected using the approved sharp HD template artwork, with the live header/date/time/search/navigation retained.
+2. Homepage typography/layout adjusted to match the approved reference template more closely.
+3. Homepage social icons corrected to match the original colored icon treatment.
+4. Mantra hero and civilian images corrected (they had been reversed).
+5. Agniveer Issue #3 — "खंडहर का प्रहार" added with cover and four-page preview.
+6. Agniveer Issue #3 added to the central comics data so it appears automatically in the Agniveer page, All Comics, Latest Issues, Hindi Comics, and other JSON-driven listings.
+7. Sitemap updated with the new Agniveer Issue #3 page.
+
+Upload/replace the included paths while preserving the existing folder structure.
