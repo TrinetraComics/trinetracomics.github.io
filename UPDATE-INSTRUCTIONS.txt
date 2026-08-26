@@ -33,5 +33,5 @@ IMPORTANT
    Section 2 — Meet the Guardians: one dedicated download page per hero.
    Section 3 — Posters: future/coming soon.
    Section 4 — Digital Art Packs: future/coming soon.
-5. The Google download buttons currently use href="#" because the final Google links have not yet been supplied. Replace each href="#" on the relevant downloads page with the final Google Drive/Google link.
+5. The download buttons currently use href="#" as placeholders. Replace each relevant href="#" with the final external download URL when the artwork is ready.
 6. The hero wallpaper pages currently use the existing hero art as a temporary preview until the final desktop/mobile wallpaper files are supplied.
