@@ -1,14 +1,18 @@
-TRINETRA COMICS — HOMEPAGE WALLPAPER + SEARCH FIX
+TRINETRA COMICS — HOMEPAGE PATCH
 
-Replace only these files in the existing website:
-
+Replace/update only these files from this patch in the existing website:
 1. index.html
 2. css/style.css
-3. images/trinetra-home-background.webp
+3. images/trinetra-home-background-uhd.webp
 
-Changes:
-- Homepage now uses the exact user-supplied Background Wallpaper as the hero background.
-- Desktop search box is compact (180px) and sits below the date/social row, aligned only under the social-icon side rather than spanning under the date/time.
-- Mobile social-media icons are hidden.
-- Mobile search box is reduced to 160px.
-- No other website pages are included or intended to be replaced.
+Changes in this patch:
+- Uses the supplied Background Wallpaper updated.png as the homepage hero artwork, with a high-resolution sharpened 2x web asset for cleaner desktop rendering.
+- Removes the old blurred/background variants from the active homepage rule.
+- Slightly reduces the TRINETRA COMICS UNIVERSE heading so more of the Trinetra symbol remains visible.
+- Keeps the desktop date/time and social icons in the top utility row.
+- Makes the desktop search field compact and aligned directly beneath the social-icon area rather than extending under the clock.
+- Pins search results directly to the search field so the dropdown does not appear detached.
+- Hides header social icons on mobile and keeps the mobile search field compact.
+- Corrects the homepage Facebook destination to https://www.facebook.com/share/1HmVFSrivd
+
+No other website pages are included in this patch.
