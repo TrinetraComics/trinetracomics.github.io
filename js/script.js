@@ -84,6 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ["Comics","Comics","comics.html"],
     ["Free Previews","Comics","previews.html"],
     ["Lore","Universe","lore.html"],
+    ["Downloads","Wallpaper, posters and character art","downloads.html"],
     ["News / Updates","Site","news.html"]
   ];
 

@@ -679,3 +679,52 @@
 .header-social a:hover,.footer-social a:hover{filter:brightness(1.12);transform:translateY(-3px) scale(1.04)!important}
 @media(max-width:900px){.home-page .home-cosmic-hero{min-height:760px!important;padding-top:130px!important;background-position:center 56%!important}}
 @media(max-width:640px){.home-page .home-cosmic-hero{min-height:720px!important;padding:120px 6% 48px!important;background-position:center 50%!important}}
+
+/* ===== Update: refined homepage hero + header utility layout + Downloads ===== */
+.site-header{display:flex;align-items:center;gap:22px;min-height:76px}
+.header-tools{margin-left:auto;width:330px;display:flex;flex-direction:column;gap:7px;flex:0 0 330px}
+.header-topline{display:flex;align-items:center;justify-content:flex-end;gap:12px;min-height:28px}
+.site-header .ist-clock{position:static!important;min-width:0!important;text-align:right;white-space:nowrap}
+.site-header .ist-clock strong{display:block;font-size:11px;line-height:1.15}
+.site-header .ist-clock span{display:block;font-size:8px;line-height:1.15;color:#8993a7;letter-spacing:.8px;margin-top:2px}
+.site-header .site-search{order:initial;width:100%;margin:0!important}
+.site-header .header-social{position:static!important;margin:0!important;display:flex!important;align-items:center;gap:7px;flex:0 0 auto}
+.site-header .header-social a{width:27px!important;height:27px!important;min-width:27px!important;border-radius:50%;display:block!important}
+.site-header .header-social a:hover{transform:translateY(-2px) scale(1.05)!important}
+.site-header .site-search input{height:38px;font-size:11px}
+.home-page .home-cosmic-hero{
+  background-image:linear-gradient(180deg,rgba(3,5,13,.08) 0%,rgba(3,5,13,.02) 42%,rgba(3,5,13,.76) 76%,#050711 100%),url("../images/trinetra-home-cosmic-clean.webp")!important;
+  background-size:100% 100%!important;
+  background-position:center center!important;
+  background-repeat:no-repeat!important;
+}
+.home-page .home-cosmic-hero h1{font-size:clamp(58px,7.2vw,110px)!important;line-height:.9!important;margin:14px auto 10px!important;max-width:980px!important}
+.home-page .home-cosmic-hero .btn-primary{background:transparent!important;color:#fff!important;border-color:#46506b!important}
+.home-page .home-cosmic-hero .btn-primary:hover{border-color:var(--accent)!important;color:var(--accent)!important;background:rgba(101,217,255,.06)!important;transform:translateY(-2px)!important}
+.home-page .home-cosmic-hero .btn-ghost:hover{background:rgba(101,217,255,.06)!important}
+.downloads-section{padding-top:90px}
+.download-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:32px}
+.download-card{border:1px solid var(--line);background:var(--panel);overflow:hidden}
+.download-card.mini{display:flex;flex-direction:column}
+.download-art{height:420px;background:#080b16;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.download-art img{width:100%;height:100%;object-fit:cover;display:block}
+.download-art.portrait-download img{object-fit:contain;padding:10px}
+.download-body{padding:24px}
+.download-body h3{font-size:34px}
+.download-body p{max-width:620px}
+.download-card .btn{margin-top:10px}
+.hero-download-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.hero-download-grid .download-art{height:390px}
+.hero-download-grid .download-art img{object-fit:contain;padding:14px}
+@media(max-width:1100px){.site-header{gap:14px}.header-tools{width:285px;flex-basis:285px}.nav{gap:15px}.nav a{font-size:10px}.hero-download-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:800px){
+ .site-header{display:flex;flex-wrap:wrap;min-height:68px;gap:10px;padding:8px 18px!important}
+ .header-tools{width:100%;flex:1 1 100%;order:5}
+ .header-topline{justify-content:flex-end}
+ .site-header .header-social a{width:25px!important;height:25px!important;min-width:25px!important}
+ .site-header .site-search input{height:36px}
+ .home-page .home-cosmic-hero{background-size:cover!important;background-position:center center!important}
+ .home-page .home-cosmic-hero h1{font-size:clamp(50px,13vw,78px)!important}
+ .download-grid,.hero-download-grid{grid-template-columns:1fr}
+ .download-art,.hero-download-grid .download-art{height:390px}
+}

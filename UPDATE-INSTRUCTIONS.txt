@@ -1,22 +1,28 @@
-TRINETRA COMICS — PARTIAL WEBSITE UPDATE
+TRINETRA COMICS — PARTIAL HOMEPAGE / NAVIGATION / DOWNLOADS UPDATE
 
-Replace/add these files in the existing website, preserving the folder structure:
+Replace the corresponding files in the live website with the files in this ZIP.
 
-1. index.html
-2. css/style.css
-3. images/trinetra-home-cosmic-hd.webp
-4. images/social/facebook.svg
-5. images/social/instagram.svg
-6. images/social/x.svg
-7. images/social/youtube.svg
-8. images/social/pinterest.svg
-9. mantra.html
-10. data/comics.json
-11. comic-agniveer-03.html
-12. images/comics/agniveer-03-cover.webp
-13. images/comics/agniveer-03-preview-1.webp
-14. images/comics/agniveer-03-preview-2.webp
-15. images/comics/agniveer-03-preview-3.webp
-16. images/comics/agniveer-03-preview-4.webp
+This update includes:
+1. Clean HD cosmic homepage background with NO embedded title/tagline/buttons.
+2. Slightly reduced homepage title size so the Trinetra symbol remains more visible.
+3. Both homepage CTA buttons now use the same outline/hover treatment.
+4. Header utility area redesigned: IST date/time + smaller official social icons on the top row, search box below, preventing search results from colliding with social icons.
+5. Social icons use the original supplied colored SVG artwork.
+6. Main menu is now: Home, Universe, Heroes, Comics, Previews, Downloads, News / Updates, About.
+7. Lore has been moved inside the Universe dropdown.
+8. New Downloads page with Wallpapers, Character Art, Posters & Key Art, and Comic Extras sections.
+9. Desktop and mobile Trinetra cosmic wallpaper assets added.
+10. Search index updated to include Downloads.
+11. Sitemap updated with downloads.html.
 
-The new Agniveer Issue #3 page is linked through data/comics.json, so agniveer.html, all-comics.html, latest-issues.html, Hindi Comics and the other dynamic comic listings will pick it up automatically.
+UPLOAD/REPLACE:
+- All HTML files included in this ZIP (their shared header/menu has been updated).
+- css/style.css
+- js/script.js
+- sitemap.xml
+- downloads.html
+- images/trinetra-home-cosmic-clean.webp
+- images/trinetra-mobile-wallpaper.webp
+
+Do NOT delete files that are not included in this ZIP.
+This is intentionally a partial update, not a full-site replacement.
