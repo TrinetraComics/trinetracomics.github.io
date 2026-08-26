@@ -656,53 +656,26 @@
 .home-page .site-header .header-social{position:absolute;right:34px;top:68px}
 @media(max-width:800px){.home-page .site-header .header-social{display:none!important}}
 
-/* ===== Homepage cosmic template — sharp desktop treatment ===== */
-@media (min-width: 801px){
-  .home-page .breadcrumbs{display:none!important}
-  .home-page .site-header{
-    position:absolute!important;top:0;left:0;right:0;height:120px!important;min-height:120px!important;
-    padding:0!important;background:rgba(2,4,11,.72)!important;backdrop-filter:blur(4px)!important;
-    border-bottom:1px solid rgba(255,255,255,.08)!important;z-index:3000!important;display:block!important;
-  }
-  .home-page .site-header .brand{
-    position:absolute!important;left:22px;top:7px;padding:0!important;background:none!important;box-shadow:none!important;
-    width:190px;height:106px;display:flex!important;align-items:center;justify-content:flex-start;
-  }
-  .home-page .site-header .brand-logo{width:185px!important;max-height:105px!important;height:auto!important;object-fit:contain!important;filter:none!important;opacity:1!important}
-  .home-page .site-header .nav{
-    position:absolute!important;left:250px;right:410px;top:52px;height:48px;
-    display:flex!important;align-items:center;justify-content:center;gap:25px!important;
-    flex-wrap:nowrap!important;white-space:nowrap!important;
-  }
-  .home-page .site-header .nav a{font-size:14px!important;letter-spacing:1.3px!important;color:#e6e9f2!important}
-  .home-page .site-header .nav a:hover,.home-page .site-header .nav a.active{color:#56d6ff!important}
-  .home-page .site-header .ist-clock{position:absolute!important;right:28px;top:16px;min-width:0!important;width:210px;text-align:right!important;color:#aeb7c8!important}
-  .home-page .site-header .ist-clock strong{font-size:12px!important;color:#eef1f8!important;letter-spacing:1.2px!important}
-  .home-page .site-header .ist-clock span{font-size:9px!important}
-  .home-page .site-header .site-search{position:absolute!important;right:28px;top:56px;width:365px!important;margin:0!important}
-  .home-page .site-header .site-search input{height:48px!important;padding:12px 16px!important;background:rgba(5,9,20,.72)!important;border:1px solid #3c506e!important;font-size:14px!important;color:#eef1f8!important}
-  .home-page .site-header .header-social{position:absolute!important;right:28px!important;top:130px!important;margin:0!important;gap:15px!important;z-index:3200!important}
-  .home-page .header-social a{width:38px!important;height:38px!important;font-size:17px!important}
-  .home-page .header-social a[aria-label="Instagram"]{font-size:0!important;position:relative!important}
-  .home-page .header-social a[aria-label="Instagram"]:before{content:"";width:16px;height:16px;border:2px solid #fff;border-radius:5px;display:block;box-sizing:border-box}
-  .home-page .header-social a[aria-label="Instagram"]:after{content:"";position:absolute;width:4px;height:4px;border:2px solid #fff;border-radius:50%;top:10px;left:10px;box-sizing:border-box}
-  .home-page .home-cosmic-hero{
-    min-height:calc(100vh - 120px)!important;height:calc(100vh - 120px)!important;
-    padding:0!important;margin:0!important;display:block!important;position:relative!important;overflow:hidden!important;
-    background-image:url("../images/home-cosmic-hero-hd.webp")!important;
-    background-size:100% 100%!important;background-position:center center!important;background-repeat:no-repeat!important;
-  }
-  .home-page .home-cosmic-hero .hero-stars{display:none!important}
-  .home-page .home-cosmic-hero .hero-copy{
-    position:absolute!important;inset:0!important;width:100%!important;max-width:none!important;margin:0!important;padding:0!important;
-    opacity:0!important;pointer-events:auto!important;z-index:5!important;
-  }
-  .home-page .home-cosmic-hero .actions{
-    position:absolute!important;left:50%!important;bottom:18px!important;transform:translateX(-50%)!important;
-    margin:0!important;display:flex!important;gap:22px!important;justify-content:center!important;width:760px!important;
-  }
-  .home-page .home-cosmic-hero .actions .btn{width:335px!important;height:58px!important;min-width:0!important}
+/* Final HD cosmic homepage background + original-style social icons */
+.home-page .home-cosmic-hero{
+  min-height:calc(100vh - 76px)!important;
+  padding:150px 7% 60px!important;
+  display:flex!important;
+  align-items:flex-end!important;
+  justify-content:center!important;
+  text-align:center!important;
+  background-image:linear-gradient(180deg,rgba(3,5,13,.04) 0%,rgba(3,5,13,.03) 48%,rgba(3,5,13,.92) 78%,#050711 100%),url("../images/trinetra-home-cosmic-hd.webp")!important;
+  background-size:cover!important;
+  background-position:center 58%!important;
+  background-repeat:no-repeat!important;
 }
-@media (max-width:800px){
-  .home-page .home-cosmic-hero{background-image:linear-gradient(180deg,rgba(3,5,13,.1),rgba(3,5,13,.75)),url("../images/home-cosmic-hero-hd.webp")!important;background-size:cover!important;background-position:center center!important}
-}
+.home-page .home-cosmic-hero .hero-stars{opacity:.06!important}
+.header-social a,.footer-social a{font-size:0!important;background-size:100% 100%!important;background-position:center!important;background-repeat:no-repeat!important;border:0!important}
+.header-social a[aria-label="Facebook"],.footer-social a[aria-label="Facebook"]{background-image:url("../images/social/facebook.svg")!important}
+.header-social a[aria-label="Instagram"],.footer-social a[aria-label="Instagram"]{background-image:url("../images/social/instagram.svg")!important}
+.header-social a[aria-label="X / Twitter"],.footer-social a[aria-label="X / Twitter"]{background-image:url("../images/social/x.svg")!important}
+.header-social a[aria-label="YouTube"],.footer-social a[aria-label="YouTube"]{background-image:url("../images/social/youtube.svg")!important}
+.header-social a[aria-label="Pinterest"],.footer-social a[aria-label="Pinterest"]{background-image:url("../images/social/pinterest.svg")!important}
+.header-social a:hover,.footer-social a:hover{filter:brightness(1.12);transform:translateY(-3px) scale(1.04)!important}
+@media(max-width:900px){.home-page .home-cosmic-hero{min-height:760px!important;padding-top:130px!important;background-position:center 56%!important}}
+@media(max-width:640px){.home-page .home-cosmic-hero{min-height:720px!important;padding:120px 6% 48px!important;background-position:center 50%!important}}
