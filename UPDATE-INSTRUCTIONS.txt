@@ -26,3 +26,10 @@ UPLOAD/REPLACE:
 
 Do NOT delete files that are not included in this ZIP.
 This is intentionally a partial update, not a full-site replacement.
+
+FINAL REPAIR PASS (26 Aug 2026)
+- Replace css/style.css with the included version.
+- Replace index.html with the included version.
+- Ensure images/trinetra-home-cosmic-clean.webp is present.
+- Ensure images/social/*.svg are present.
+- This pass restores the sharp clean 1920x1080 cosmic background and the homepage date/time, search bar, and original social-media icons.

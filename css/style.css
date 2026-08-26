@@ -728,3 +728,125 @@
  .download-grid,.hero-download-grid{grid-template-columns:1fr}
  .download-art,.hero-download-grid .download-art{height:390px}
 }
+
+/* ===== HOMEPAGE FINAL REPAIR — HD BACKGROUND + HEADER UTILITIES ===== */
+@media (min-width: 801px){
+  .home-page .site-header{
+    position:absolute!important;
+    inset:0 0 auto 0!important;
+    height:76px!important;
+    min-height:76px!important;
+    padding:0 24px!important;
+    display:block!important;
+    background:linear-gradient(180deg,rgba(2,4,11,.90),rgba(2,4,11,.42),transparent)!important;
+    border-bottom:1px solid rgba(255,255,255,.07)!important;
+    backdrop-filter:blur(5px)!important;
+    z-index:500!important;
+  }
+  .home-page .site-header .brand{
+    position:absolute!important;
+    left:24px!important;
+    top:8px!important;
+    width:118px!important;
+    height:58px!important;
+    z-index:520!important;
+  }
+  .home-page .site-header .nav{
+    position:absolute!important;
+    left:160px!important;
+    right:365px!important;
+    top:0!important;
+    height:76px!important;
+    margin:0!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:center!important;
+    gap:22px!important;
+    white-space:nowrap!important;
+  }
+  .home-page .site-header .header-tools{
+    position:absolute!important;
+    right:24px!important;
+    top:9px!important;
+    width:330px!important;
+    height:62px!important;
+    margin:0!important;
+    display:flex!important;
+    flex-direction:column!important;
+    gap:6px!important;
+    z-index:530!important;
+  }
+  .home-page .site-header .header-topline{
+    width:100%!important;
+    min-height:27px!important;
+    display:flex!important;
+    align-items:center!important;
+    justify-content:flex-end!important;
+    gap:10px!important;
+  }
+  .home-page .site-header .ist-clock{
+    position:static!important;
+    min-width:0!important;
+    text-align:right!important;
+    white-space:nowrap!important;
+  }
+  .home-page .site-header .ist-clock strong{font-size:11px!important;line-height:1.1!important;color:#eef1f8!important}
+  .home-page .site-header .ist-clock span{font-size:8px!important;line-height:1.1!important;color:#9ca6ba!important;margin-top:2px!important}
+  .home-page .site-header .header-social{
+    position:static!important;
+    display:flex!important;
+    align-items:center!important;
+    gap:7px!important;
+    margin:0!important;
+  }
+  .home-page .site-header .header-social a{
+    width:27px!important;
+    height:27px!important;
+    min-width:27px!important;
+    flex:0 0 27px!important;
+    display:block!important;
+    background-size:100% 100%!important;
+    background-position:center!important;
+    background-repeat:no-repeat!important;
+  }
+  .home-page .site-header .site-search{
+    position:relative!important;
+    width:100%!important;
+    margin:0!important;
+  }
+  .home-page .site-header .site-search input{
+    width:100%!important;
+    height:34px!important;
+    padding:8px 12px!important;
+    background:rgba(7,10,23,.88)!important;
+    border:1px solid #42516e!important;
+    color:#eef1f8!important;
+    font-size:11px!important;
+  }
+  .home-page .home-cosmic-hero{
+    min-height:100vh!important;
+    height:100vh!important;
+    padding:150px 7% 62px!important;
+    background-image:linear-gradient(180deg,rgba(3,5,13,.04) 0%,rgba(3,5,13,.02) 43%,rgba(3,5,13,.68) 75%,#050711 100%),url("../images/trinetra-home-cosmic-clean.webp")!important;
+    background-size:100% 100%!important;
+    background-position:center center!important;
+    background-repeat:no-repeat!important;
+  }
+  .home-page .home-cosmic-hero h1{
+    font-size:clamp(56px,6.8vw,104px)!important;
+    line-height:.9!important;
+    max-width:940px!important;
+  }
+}
+
+@media (max-width:800px){
+  .home-page .site-header .header-tools{display:flex!important;}
+  .home-page .site-header .header-topline{display:flex!important;}
+  .home-page .site-header .header-social{display:flex!important;}
+  .home-page .site-header .site-search{display:block!important;}
+  .home-page .home-cosmic-hero{
+    background-image:linear-gradient(180deg,rgba(3,5,13,.04) 0%,rgba(3,5,13,.02) 43%,rgba(3,5,13,.72) 75%,#050711 100%),url("../images/trinetra-home-cosmic-clean.webp")!important;
+    background-size:cover!important;
+    background-position:center center!important;
+  }
+}
