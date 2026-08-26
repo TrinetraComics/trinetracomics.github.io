@@ -1,18 +1,37 @@
-TRINETRA COMICS — HOMEPAGE PATCH
+TRINETRA COMICS — HOMEPAGE + DOWNLOADS PARTIAL UPDATE
 
-Replace/update only these files from this patch in the existing website:
-1. index.html
-2. css/style.css
-3. images/trinetra-home-background-uhd.webp
+Replace/add ONLY the files in this package in your existing website repository.
+Do NOT replace the whole website.
 
-Changes in this patch:
-- Uses the supplied Background Wallpaper updated.png as the homepage hero artwork, with a high-resolution sharpened 2x web asset for cleaner desktop rendering.
-- Removes the old blurred/background variants from the active homepage rule.
-- Slightly reduces the TRINETRA COMICS UNIVERSE heading so more of the Trinetra symbol remains visible.
-- Keeps the desktop date/time and social icons in the top utility row.
-- Makes the desktop search field compact and aligned directly beneath the social-icon area rather than extending under the clock.
-- Pins search results directly to the search field so the dropdown does not appear detached.
-- Hides header social icons on mobile and keeps the mobile search field compact.
-- Corrects the homepage Facebook destination to https://www.facebook.com/share/1HmVFSrivd
+UPDATED EXISTING FILES
+- index.html
+- css/style.css
+- js/script.js
+- sitemap.xml
+- images/trinetra-home-background-uhd.webp
 
-No other website pages are included in this patch.
+NEW FILES
+- downloads.html
+- downloads-wallpapers-desktop.html
+- downloads-wallpapers-mobile.html
+- downloads-brahmansh.html
+- downloads-agniveer.html
+- downloads-vajra.html
+- downloads-vishraaj.html
+- downloads-yantrik.html
+- downloads-vaishnavi.html
+- downloads-mantra.html
+- downloads-vyomika.html
+- downloads-kavach.html
+
+IMPORTANT
+1. The supplied new background wallpaper is now used by the homepage.
+2. Desktop search is fixed so the results dropdown is anchored directly to the search field and has the same width.
+3. Mobile social icons are hidden and the mobile search field remains compact.
+4. Downloads is now structured as:
+   Section 1 — Wallpapers: Desktop + Mobile.
+   Section 2 — Meet the Guardians: one dedicated download page per hero.
+   Section 3 — Posters: future/coming soon.
+   Section 4 — Digital Art Packs: future/coming soon.
+5. The Google download buttons currently use href="#" because the final Google links have not yet been supplied. Replace each href="#" on the relevant downloads page with the final Google Drive/Google link.
+6. The hero wallpaper pages currently use the existing hero art as a temporary preview until the final desktop/mobile wallpaper files are supplied.

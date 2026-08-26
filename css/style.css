@@ -1070,3 +1070,26 @@
     max-width:900px!important;
   }
 }
+
+
+/* ===== 2026-08-26 UPDATE: supplied background + definitive desktop search anchoring ===== */
+@media (min-width:801px){
+  .home-page .home-cosmic-hero{
+    background-image:linear-gradient(180deg,rgba(3,5,13,.01) 0%,rgba(3,5,13,.01) 48%,rgba(3,5,13,.60) 76%,#050711 100%),url("../images/trinetra-home-background-uhd.webp")!important;
+    background-size:100% 100%!important;
+    background-position:center center!important;
+    background-repeat:no-repeat!important;
+  }
+  .home-page .site-header .header-tools{width:300px!important;flex:0 0 300px!important;}
+  .home-page .site-header .site-search{position:relative!important;width:170px!important;max-width:170px!important;margin:0 0 0 auto!important;align-self:flex-end!important;}
+  .home-page .site-header .site-search input{display:block!important;width:170px!important;max-width:170px!important;height:34px!important;box-sizing:border-box!important;}
+  .home-page .site-header .search-results{position:absolute!important;top:100%!important;left:0!important;right:auto!important;width:170px!important;max-width:170px!important;margin:0!important;border-top:0!important;border-radius:0 0 4px 4px!important;box-sizing:border-box!important;}
+  .home-page .site-header .search-results.show{display:block!important;}
+  .home-page .home-cosmic-hero h1{font-size:clamp(50px,6vw,92px)!important;max-width:900px!important;}
+}
+@media (max-width:800px){
+  .home-page .site-header .header-social{display:none!important;}
+  .home-page .site-header .site-search{width:160px!important;max-width:160px!important;margin:0 0 0 auto!important;}
+  .home-page .site-header .site-search input{width:160px!important;max-width:160px!important;height:31px!important;}
+  .home-page .site-header .search-results{position:absolute!important;top:100%!important;left:0!important;right:auto!important;width:160px!important;max-width:160px!important;margin:0!important;}
+}

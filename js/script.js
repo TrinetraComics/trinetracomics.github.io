@@ -84,8 +84,19 @@ document.addEventListener("DOMContentLoaded", function () {
     ["Comics","Comics","comics.html"],
     ["Free Previews","Comics","previews.html"],
     ["Lore","Universe","lore.html"],
-    ["Downloads","Wallpaper, posters and character art","downloads.html"],
-    ["News / Updates","Site","news.html"]
+    ["News / Updates","Site","news.html"],
+    ["Downloads","Site","downloads.html"],
+    ["Desktop Wallpapers","Downloads","downloads-wallpapers-desktop.html"],
+    ["Mobile Wallpapers","Downloads","downloads-wallpapers-mobile.html"],
+    ["Brahmansh Wallpapers","Downloads","downloads-brahmansh.html"],
+    ["Agniveer Wallpapers","Downloads","downloads-agniveer.html"],
+    ["Vajra Wallpapers","Downloads","downloads-vajra.html"],
+    ["Vishraaj Wallpapers","Downloads","downloads-vishraaj.html"],
+    ["Yantrik Wallpapers","Downloads","downloads-yantrik.html"],
+    ["Vaishnavi Wallpapers","Downloads","downloads-vaishnavi.html"],
+    ["Mantra Wallpapers","Downloads","downloads-mantra.html"],
+    ["Vyomika Wallpapers","Downloads","downloads-vyomika.html"],
+    ["Kavach Wallpapers","Downloads","downloads-kavach.html"]
   ];
 
   if (searchInput && results) {
