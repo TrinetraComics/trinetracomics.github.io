@@ -1,18 +1,14 @@
-TRINETRA COMICS — HOMEPAGE HEADER CORRECTION
+TRINETRA COMICS — HOMEPAGE WALLPAPER + SEARCH FIX
 
-Replace these files in your existing website:
+Replace only these files in the existing website:
 
 1. index.html
 2. css/style.css
-3. images/trinetra-home-cosmic-final.webp
+3. images/trinetra-home-background.webp
 
-Fixes in this package:
-- Replaces the low-resolution/blurred homepage background with a sharper 1920x1080 cosmic Trinetra background.
-- Removes the embedded headline/buttons from the background so the website text is not doubled.
-- Keeps the lower left/right planetary details visible.
-- Makes the desktop search box compact (220px) and aligned below the date/social row rather than spanning across the clock area.
-- Keeps the colored Facebook, Instagram, X, YouTube and Pinterest icons compact.
-- Hides social-media icons completely on mobile screens.
-- Makes the mobile search field compact (170px).
-
-Do not replace the rest of the website files.
+Changes:
+- Homepage now uses the exact user-supplied Background Wallpaper as the hero background.
+- Desktop search box is compact (180px) and sits below the date/social row, aligned only under the social-icon side rather than spanning under the date/time.
+- Mobile social-media icons are hidden.
+- Mobile search box is reduced to 160px.
+- No other website pages are included or intended to be replaced.
