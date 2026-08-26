@@ -1,35 +1,18 @@
-TRINETRA COMICS — PARTIAL HOMEPAGE / NAVIGATION / DOWNLOADS UPDATE
+TRINETRA COMICS — HOMEPAGE HEADER CORRECTION
 
-Replace the corresponding files in the live website with the files in this ZIP.
+Replace these files in your existing website:
 
-This update includes:
-1. Clean HD cosmic homepage background with NO embedded title/tagline/buttons.
-2. Slightly reduced homepage title size so the Trinetra symbol remains more visible.
-3. Both homepage CTA buttons now use the same outline/hover treatment.
-4. Header utility area redesigned: IST date/time + smaller official social icons on the top row, search box below, preventing search results from colliding with social icons.
-5. Social icons use the original supplied colored SVG artwork.
-6. Main menu is now: Home, Universe, Heroes, Comics, Previews, Downloads, News / Updates, About.
-7. Lore has been moved inside the Universe dropdown.
-8. New Downloads page with Wallpapers, Character Art, Posters & Key Art, and Comic Extras sections.
-9. Desktop and mobile Trinetra cosmic wallpaper assets added.
-10. Search index updated to include Downloads.
-11. Sitemap updated with downloads.html.
+1. index.html
+2. css/style.css
+3. images/trinetra-home-cosmic-final.webp
 
-UPLOAD/REPLACE:
-- All HTML files included in this ZIP (their shared header/menu has been updated).
-- css/style.css
-- js/script.js
-- sitemap.xml
-- downloads.html
-- images/trinetra-home-cosmic-clean.webp
-- images/trinetra-mobile-wallpaper.webp
+Fixes in this package:
+- Replaces the low-resolution/blurred homepage background with a sharper 1920x1080 cosmic Trinetra background.
+- Removes the embedded headline/buttons from the background so the website text is not doubled.
+- Keeps the lower left/right planetary details visible.
+- Makes the desktop search box compact (220px) and aligned below the date/social row rather than spanning across the clock area.
+- Keeps the colored Facebook, Instagram, X, YouTube and Pinterest icons compact.
+- Hides social-media icons completely on mobile screens.
+- Makes the mobile search field compact (170px).
 
-Do NOT delete files that are not included in this ZIP.
-This is intentionally a partial update, not a full-site replacement.
-
-FINAL REPAIR PASS (26 Aug 2026)
-- Replace css/style.css with the included version.
-- Replace index.html with the included version.
-- Ensure images/trinetra-home-cosmic-clean.webp is present.
-- Ensure images/social/*.svg are present.
-- This pass restores the sharp clean 1920x1080 cosmic background and the homepage date/time, search bar, and original social-media icons.
+Do not replace the rest of the website files.

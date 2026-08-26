@@ -850,3 +850,71 @@
     background-position:center center!important;
   }
 }
+
+/* ===== Final homepage header/background correction ===== */
+.home-page .home-cosmic-hero{
+  background-image:linear-gradient(180deg,rgba(3,5,13,.05) 0%,rgba(3,5,13,.02) 45%,rgba(3,5,13,.74) 76%,#050711 100%),url("../images/trinetra-home-cosmic-final.webp")!important;
+  background-size:cover!important;
+  background-position:center center!important;
+  background-repeat:no-repeat!important;
+}
+
+/* Desktop: compact search under the clock/social row, never spanning the clock area. */
+@media(min-width:801px){
+  .site-header .header-tools{
+    width:285px!important;
+    flex:0 0 285px!important;
+    margin-left:auto!important;
+  }
+  .site-header .header-topline{
+    width:100%!important;
+    justify-content:flex-end!important;
+    gap:9px!important;
+  }
+  .site-header .header-social{gap:6px!important;}
+  .site-header .header-social a{
+    width:26px!important;
+    height:26px!important;
+    min-width:26px!important;
+  }
+  .site-header .site-search{
+    width:220px!important;
+    margin-left:auto!important;
+    margin-right:0!important;
+  }
+  .site-header .site-search input{
+    width:100%!important;
+    height:36px!important;
+    padding:0 12px!important;
+    font-size:11px!important;
+  }
+}
+
+/* Mobile: keep the header clean; hide social icons and use a genuinely compact search field. */
+@media(max-width:800px){
+  .site-header .header-social{display:none!important;}
+  .site-header .header-tools{
+    width:170px!important;
+    flex:0 0 170px!important;
+    margin-left:auto!important;
+  }
+  .site-header .header-topline{
+    min-height:0!important;
+    justify-content:flex-end!important;
+  }
+  .site-header .ist-clock{display:none!important;}
+  .site-header .site-search{
+    width:170px!important;
+    margin-left:auto!important;
+  }
+  .site-header .site-search input{
+    width:100%!important;
+    height:32px!important;
+    padding:0 10px!important;
+    font-size:10px!important;
+  }
+  .home-page .home-cosmic-hero{
+    background-position:center center!important;
+    background-size:cover!important;
+  }
+}
